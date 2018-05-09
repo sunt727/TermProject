@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<style type='text/css'></style>
+<head>
+	<!-- Title, stylesheets -->
+	<title>PubHub</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel='stylesheet' id='font-css'  href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' type='text/css' media='all' />
+	<link rel='stylesheet' href='./css/style.css' type='text/css'/>
+
+	<!-- The Javascript sources from external websites gets Loaded -->
+	<script src="https://maps.googleapis.com/maps/api/js?libraries=visualization"></script>
+	<script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js?ver=1.10.2'></script>
+	<script type='text/javascript' src='./js/mapStyle.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- Click month buttons to load external datasets-->
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+	<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL6b1khQemm0nWw8CujtPXctuqdK_QJEI&callback=initMap_cluster"
+	type="text/javascript"></script> -->
+	
+	<!-- Load clean data -->
+	<script src="jsonData/sjan.json"></script>
+	<script src="jsonData/sfeb.json"></script>
+	<script src="jsonData/smar.json"></script>
+	<script src="jsonData/sapr.json"></script>
+	<script src="jsonData/smay.json"></script>
+	<script src="jsonData/sjun.json"></script>
+	<script src="jsonData/sjul.json"></script>
+	<script src="jsonData/saug.json"></script>
+	<script src="jsonData/ssep.json"></script>
+	<script src="jsonData/soct.json"></script>
+	<script src="jsonData/snov.json"></script>
+	<script src="jsonData/sdec.json"></script>
+	<script src="jsonData/jan1.json"></script>
+	<script src="jsonData/feb1.json"></script>
+	<script src="jsonData/mar1.json"></script>
+	<script src="jsonData/apr1.json"></script>
+	<script src="jsonData/may1.json"></script>
+	<script src="jsonData/jun1.json"></script>
+	<script src="jsonData/jul1.json"></script>
+	<script src="jsonData/aug1.json"></script>
+	<script src="jsonData/sep1.json"></script>
+	<script src="jsonData/oct1.json"></script>
+	<script src="jsonData/nov1.json"></script>
+	<script src="jsonData/dec1.json"></script>
+</head>
+
+<body>
+<!--wapper-->
+<div id='wrapper'>
+	<!-- map canvas -->
+	<div id="map-canvas"></div>
+	<!--title-->
+	<div id="title">
+		<a href="index.html"><img src="./img/Hubway_logo.png" height="100px" style="float:left; margin:3px 15px 3px 100px;" alt="Bike Logo"></a>
+		<h1 style="color:white;text-align:right;margin-top:10px;font-size:24px;">Find the gaps between Hubway and MBTA</h1>
+		<p style="color:white; text-align:right; font-size:12px;">This interactive website presents the analysis of the current gaps between existing MBTA routes and frequent Hubway paths in Cambridge, MA</p>
+		<hr style="color:white; text-align:right; font-size:8px;"> 
+			Data source: Cambridge public transportation lively routes from MBTA;</br>
+			2017 annual behaviour of Hubway riders between stations from Hubway official website by month.
+		</hr>
+	</div> 
+	<!-- Legend -->
+	<div id="legend"><img src="./img/legend.png" height="250px" alt="Legend"></div>
+	<!--sidebar-->
+	<div id="sidebar">
+		<div id='inner'>
+			<!-- <h1 style="text-align:justify; margin-top:5px; font-size:14px; color:red;">Most popular trips this month</h1> -->
+			<div id="chart_div" style=""></div>
+			<h6 style="position: relative; top: 11%;">Popular routes top 10 at </h6>
+			<span class="range-value" type = "number" style="position: absolute; top: 303px; left: 140px; text-align: left;" ></span>
+			<h6 style="position: absolute; top: 275px; left: 157px;">:00 </h6>
+			<div id="table_div" style="position: relative; top: 10%;"></div>
+			<div class="container"></div>
+		</div>
+	</div>
+	<!--buttonGroup-->
+	<div id="buttongroup">
+		<!--TimeSLider and month label-->
+		<div id="Timebutton" style="position: absolute; width: 30px; margin-top: -1%; margin-left:0%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Time</div>
+		<div class="range-slider" style="position: absolute; margin-top: -2%; margin-left: 10%;">
+			<input class="input-range" type="range" value="8" min="0" max="24">
+			<span class="range-value" type = "number" ></span>
+		</div> 
+		<div id="monthbutton" style="position: absolute; width: 30px; margin-top: 4%; margin-left:0%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Month</div>
+		<!-- Month Buttons -->
+		<button id="buttonjan" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:10%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;" autofocus>Jan</button>
+		<button id="buttonfeb" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:17%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Feb</button>
+		<button id="buttonmar" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:24%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Mar</button>
+		<button id="buttonapr" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:31%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Apr</button>
+		<button id="buttonmay" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:38%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">May</button>
+		<button id="buttonjun" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:45%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Jun</button>
+		<button id="buttonjul" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:52%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Jul</button>
+		<button id="buttonaug" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:59%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Aug</button>
+		<button id="buttonsep" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:66%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Sep</button>
+		<button id="buttonoct" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:73%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Oct</button>
+		<button id="buttonnov" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:80%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Nov</button>
+		<button id="buttondec" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:87%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Dec</button>
+	</div>
+	<!--button to close and open the sidebar-->
+	<div id="title_bar">
+		<div id="button"><img src="./img/minimize.png" height="30px" alt="arrow"></div>
+	</div>
+	<!--button that direct to different html-->
+	<ul>
+		<li><a href="Analysis_0508.html">ANALYSIS</a></li>
+		<li><a href="Application_0508.html">APPLICATION</a></li>
+		<li><a href="About_0508.html">ABOUT</a></li> 
+	</ul>
+
+</div>
+
+
+<!-- The Javascript gets loaded -->
+<script type="text/javascript">
+	var map;
+	var markerArray = [];
+	var markerArray_end = [];
+	var infowindow = new google.maps.InfoWindow({maxWidth: 300});
+	var infowindow_end = new google.maps.InfoWindow({maxWidth: 300});
+
+// Button to toggle sidebar
+$("#button").click(function (){
+	var duration = 400;
+	$('#sidebar').fadeToggle(duration);
+});
+
+// Time Slider
+var range = $('.input-range'),
+    value = $('.range-value');
+        
+    value.html(range.attr('value'));
+
+    range.on('input', function(){
+		value.html(this.value);
+		});
+
+
+// ------------------------- Function: Initialize map ------------------------- //
+function initialize() {
+	//clearMarkers();
+	var styledMap = new google.maps.StyledMapType(blackMap,
+	 {name: "Styled Map"});
+	var mapOptions = {
+		center: { lat: 42.364498, lng: -71.070883},
+		zoom: 13,
+		maxZoom:18,
+		mapTypeControlOptions: {
+			mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'blackMap'],
+			position: google.maps.ControlPosition.LEFT_BOTTOM
+		}
+	};
+	map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+	map.mapTypes.set('blackMap', styledMap);
+	map.setMapTypeId('blackMap');
+
+	google.maps.event.addListener(map, 'dragend', function() {
+	var bounds = map.getBounds();
+
+	});
+
+	var subset = jan.filter( record => record.starthour == Time ).slice(0,5);
+	var tableset = jan.filter( record => record.starthour == Time );
+	initMap(subset);
+	initChart(jan1, 'January');
+	initTable(tableset, 'January');
+	
+}
+
+
+// Start the map
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+// Get the hour that wish to check from the Time Sliders
+var Time = value[0].innerHTML;
+
+
+// ------------------------- Click month buttons to show map, chart, and table ------------------------- //
+$('#buttonjan').click(function DrawRoutesAndChart(){
+	var subset = jan.filter( record => record.starthour == Time ).slice(0,5);
+	var tableset = jan.filter( record => record.starthour == Time );
+	initMap(subset);
+	initChart(jan1, 'January');
+	initTable(tableset, 'January');
+});
+
+$('#buttonfeb').click(function DrawRoutesAndChart(){
+	var subset = feb.filter( record => record.starthour == Time ).slice(0,5);
+	//console.log(subset);
+	var tableset = feb.filter( record => record.starthour == Time );
+	initMap(subset);
+	initChart(feb1, 'February');
+	initTable(tableset, 'February');
+});
+
+$('#buttonmar').click(function DrawRoutesAndChart(){
+	var subset = mar.filter( record => record.starthour == Time ).slice(0,5);
+	var tableset = mar.filter( record => record.starthour == Time );
+	initMap(subset);
+	initChart(mar1, 'March');
+	initTable(tableset, 'March');
+});
+
+$('#buttonapr').click(function DrawRoutesAndChart(){
+	var subset = apr.filter( record => record.starthour == Time ).slice(0,5);
+	var tableset = apr.filter( record => record.starthour == Time );
+	initMap(subset);
+	initChart(apr1, 'April');
+	initTable(tableset, 'April');
+});
+
+$('#buttonmay').click(function DrawRoutesAndChart(){
+	var subset = may.filter( record => record.starthour == Time ).slice(0,5);
+	var tableset = may.filter( record => record.starthour == Time );
+	initMap(subset);
+	initChart(may1, 'May');
+	initTable(tableset, 'May');
+});
+
+$('#buttonjun').click(function DrawRoutesAndChart(){
+	var subset= jun.filter( record => record.starthour == Time ).slice(0,5);
+	var tableset = jun.filter( record => record.starthour == Time );
+	initMap(subset);
+	initChart(jun1, 'June');
+	initTable(tableset, 'June');
+});
+
+$('#buttonjul').click(function DrawRoutesAndChart(){
+	var subset= jul.filter( record => record.starthour == Time ).slice(0,5);
+	var tableset = jul.filter( record => record.starthour == Time );
+	initMap(subset);
+	initChart(jul1, 'July');
+	initTable(tableset, 'July');
+});
+
+$('#buttonaug').click(function DrawRoutesAndChart(){
+	var subset= aug.filter( record => record.starthour == Time ).slice(0,5);
+	var tableset = aug.filter( record => record.starthour == Time );
+	initMap(subset);
+	initChart(aug1, 'August');
+	initTable(tableset, 'August');
+});
+
+$('#buttonsep').click(function DrawRoutesAndChart(){
+	var subset= sep.filter( record => record.starthour == Time ).slice(0,5);
+	var tableset = sep.filter( record => record.starthour == Time );
+	initMap(subset);
+	initChart(sep1, 'September');
+	initTable(tableset, 'September');
+});
+
+$('#buttonoct').click(function DrawRoutesAndChart(){
+	var subset= oct.filter( record => record.starthour == Time ).slice(0,5);
+	var tableset = oct.filter( record => record.starthour == Time );
+	initMap(subset);
+	initChart(oct1, 'October');
+	initTable(tableset, 'October');
+});
+
+$('#buttonnov').click(function DrawRoutesAndChart(){
+	var subset= nov.filter( record => record.starthour == Time ).slice(0,5);
+	var tableset = nov.filter( record => record.starthour == Time );
+	initMap(subset);
+	initChart(nov1, 'November');
+	initTable(tableset, 'November');
+});
+
+$('#buttondec').click(function DrawRoutesAndChart(){
+	var subset= dec.filter( record => record.starthour == Time ).slice(0,5);
+	var tableset = dec.filter( record => record.starthour == Time );
+	initMap(subset);
+	initChart(dec1, 'December');
+	initTable(tableset, 'December');
+});
+
+
+
+
+
+// ------------------------- Function: Draw map ------------------------- //
+function initMap(tripdata) {
+		var Time = new Date	(1525320000000 + value[0].innerHTML*3600000);
+
+		var styledMap = new google.maps.StyledMapType(blackMap, {name: "Styled Map"});
+		var mapOptions = {
+			center: { lat: 42.364498, lng: -71.070883},
+			zoom: 13.5,
+			maxZoom:18,
+			mapTypeControlOptions: {
+				mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'blackMap'],
+				position: google.maps.ControlPosition.LEFT_BOTTOM
+			}
+		};
+
+		var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+		map.mapTypes.set('blackMap', styledMap);
+		map.setMapTypeId('blackMap');
+		google.maps.event.addListener(map, 'dragend', function() {
+			var bounds = map.getBounds();
+		});
+
+		var directionsService = new google.maps.DirectionsService;
+		var directionsService_bike = new google.maps.DirectionsService;
+		
+		// functions for bus
+		function renderDirections(result) {
+			var directionsRenderer = new google.maps.DirectionsRenderer({
+				preserveViewport: true, 
+				suppressMarkers: true
+				});//{suppressMarkers: true}
+			
+ 			directionsRenderer.setMap(map);
+  			directionsRenderer.setDirections(result);
+		}
+
+		function requestDirections(start, end, Time) {   
+			directionsService.route({
+				origin: start,
+				destination: end,
+				travelMode: google.maps.DirectionsTravelMode.TRANSIT,
+				transitOptions: {
+					departureTime: Time, 
+					modes: ['BUS'],
+					routingPreference: 'FEWER_TRANSFERS'
+					},
+				}, function(result) {
+					renderDirections(result);
+					});
+		}
+		
+	
+		// functions for bikes
+		function renderDirections_bikes(result) {
+			var directionsRenderer = new google.maps.DirectionsRenderer({
+				preserveViewport: true, 
+				suppressMarkers: true,
+				polylineOptions:{
+					strokeColor: "red",
+				}
+				});//{suppressMarkers: true}
+
+			directionsRenderer.setMap(map);
+  			directionsRenderer.setDirections(result);
+		}
+
+		function requestDirections_bikes(start, end) {  
+			directionsService_bike.route({
+				origin: start,
+				destination: end,
+				travelMode: google.maps.DirectionsTravelMode.BICYCLING
+				}, function(result) {
+					renderDirections_bikes(result);
+					});
+		}
+	
+		// Draw bike routes and marker events
+		for (var i = 0; i < 5; i++){
+			var start_coord = {"lat": tripdata[i].startlat,"lng": tripdata[i].startlon};
+			var end_coord = {"lat": tripdata[i].endlat,"lng": tripdata[i].endlon};
+			var img_start = new google.maps.MarkerImage('./img/bike_start.png', null, null, null, new google.maps.Size(40,40));
+			var img_end = new google.maps.MarkerImage('./img/bike_end.png', null, null, null, new google.maps.Size(40,40));
+
+			requestDirections_bikes(start_coord, end_coord);
+
+			var marker = new google.maps.Marker({
+				position: start_coord,
+				icon: img_start,
+				alpha: 0.5,
+				title: tripdata[i].startname,
+				map: map
+			});
+
+			google.maps.event.addListener(marker, 'mouseover', (function (marker, i) {
+                return function () {
+                    infowindow.setContent(tripdata[i].startname);
+                    infowindow.open(map, marker);
+                }
+            })(marker, i));
+
+			markerArray.push(marker);
+			
+			var marker_end = new google.maps.Marker({
+				position: end_coord,
+				icon: img_end,
+				alpha: 0.5,
+				title: tripdata[i].endname,
+				map: map
+			});
+
+			google.maps.event.addListener(marker_end, 'mouseover', (function (marker_end, i) {
+                return function () {
+                    infowindow_end.setContent(tripdata[i].endname);
+                    infowindow_end.open(map, marker_end);
+                }
+            })(marker_end, i));
+
+			markerArray_end.push(marker_end);
+
+			google.maps.event.addListener(marker, 'mouseout', function(){
+         		 infowindow.close();
+      		});
+
+			google.maps.event.addListener(marker_end, 'mouseout', function(){
+         		 infowindow_end.close();
+      		});
+			  }
+			  
+		// wait for 5s and draw bus routes
+		setTimeout(function(){
+			for (var i = 0; i <5; i++){	
+				var start_coord = {"lat": tripdata[i].startlat,"lng": tripdata[i].startlon};
+				var end_coord = {"lat": tripdata[i].endlat,"lng": tripdata[i].endlon};
+	
+				requestDirections(start_coord, end_coord, Time);
+			}
+		},5000);
+}
+
+
+// ------------------------- Function: Draw chart ------------------------- //
+function initChart(monthdata, month){
+	//the highcharts graph function
+	google.charts.load('current', {packages: ['corechart', 'bar']});
+	google.charts.setOnLoadCallback(drawBasic);
+
+		function drawBasic() {
+			var data = new google.visualization.DataTable();
+			data.addColumn('number', 'starthour'); 
+			data.addColumn('number', 'Counts');
+			var montharray = [];
+
+			for(var i = 0; i<monthdata.length; i++){
+				montharray.push([
+					monthdata[i].starthour,
+					Math.ceil(monthdata[i].Counts/30)
+					]);
+			}
+
+			data.addRows(montharray);
+
+			var options = {
+				title: 'Number of trips per hour in ' + month,
+				titleTextStyle: {
+					color: 'white',   
+					fontName: 'Times New Roman', 
+					fontSize: 12, 
+					bold: true  
+				},
+				legend: {position: 'none'},
+				backgroundColor: 'none', 	
+				hAxis: {
+					title: 'Time of Day',
+					viewWindow: {
+						min: [0, 0, 0],
+						max: [24, 0, 0]
+				},
+				TextStyle: {color: '#FFF'},
+				titleTextStyle: {color: 'white'}
+				},
+				vAxis: {
+					title: 'Number of trips daily',
+					TextStyle: {color: '#FFF'},
+					titleTextStyle: {color: 'white'},
+					viewWindow:{
+						min:0,
+						max:800
+					}
+				}
+			};
+
+			var chart = new google.visualization.ColumnChart(
+				document.getElementById('chart_div'));
+
+			chart.draw(data, options);
+			}
+	}
+
+
+// ------------------------- Function: Draw Table ------------------------- //
+function initTable(monthdata, month){
+	//the highcharts graph function
+	google.charts.load('current', {packages: ['table']});
+	google.charts.setOnLoadCallback(drawTable);
+
+        function drawTable() {
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Start Station');
+            data.addColumn('string', 'End Station'); 
+            data.addColumn('number', 'Trip Number');
+		    var montharray = [];
+
+		    for(var i = 0; i<10; i++){
+		    montharray.push([
+				monthdata[i].startname, 
+				monthdata[i].endname, 
+				Math.ceil(monthdata[i].counts/30)
+				]);
+		    }
+
+		    data.addRows(montharray);
+		    
+		    var cssClassNames = {
+              headerRow: 'header-row-style',
+              tableRow: 'row-style',
+              oddTableRow: 'odd-row-style',
+              headerCell: 'header-cell-style',
+			  hoverTableRow: 'csshoverstyle'
+            };
+
+            var options = {
+              showRowNumber: true,
+              allowHtml: true,
+              cssClassNames: cssClassNames,
+			  width: "90%"
+            };
+            
+            var table = new google.visualization.Table(
+        	    document.getElementById('table_div'));
+
+            table.draw(data, options);
+        }
+    }
+
+
+//setAllMap function
+function setAllMap(map) {
+	for (var i = 0; i < markerArray.length; i++) {
+		markerArray[i].setMap(map);
+	}
+}
+
+
+</script>
+</body>
+</html>

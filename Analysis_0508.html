@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html>
+<!-- the head and body sets out to determine the layout and texts on the website -->
+
+<head>
+	<!-- Title, stylesheets -->
+	<title>PubHub</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel='stylesheet' id='font-css'  href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' type='text/css' media='all' />
+	<link rel='stylesheet' href='./css/style.css' type='text/css'/>
+
+	<!-- The Javascript from external websites gets Loaded -->
+	<!-- Load jQuery-->
+	<script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js?ver=1.10.2'></script>
+	<script type='text/javascript' src='./js/mapStyle.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- Click month buttons to load external datasets-->
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="https://googlemaps.github.io/js-marker-clusterer/examples/data.json"></script>
+    <script type="text/javascript" src="https://googlemaps.github.io/js-marker-clusterer/src/markerclusterer.js"></script>
+	<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL6b1khQemm0nWw8CujtPXctuqdK_QJEI&callback=initMap_cluster"
+	type="text/javascript"></script> -->
+
+	<!-- Load data -->
+	<!-- These are trips that  -->
+	<script src="jsonData/diffjan.json"></script>
+	<script src="jsonData/difffeb.json"></script>
+	<script src="jsonData/diffmar.json"></script>
+	<script src="jsonData/diffapr.json"></script>
+	<script src="jsonData/diffmay.json"></script>
+	<script src="jsonData/diffjun.json"></script>
+	<script src="jsonData/diffjul.json"></script>
+	<script src="jsonData/diffaug.json"></script>
+	<script src="jsonData/diffsep.json"></script>
+	<script src="jsonData/diffoct.json"></script>
+	<script src="jsonData/diffnov.json"></script>
+	<script src="jsonData/diffdec.json"></script>
+	<script src="jsonData/docks.json"></script>
+
+
+</head>
+
+
+<body>
+<!--wapper-->
+<div id='wrapper'>
+	<!--map canvas-->
+	<div id="map-canvas"></div>
+	<!--title-->
+	<div id="title">
+		<a href="index.html"><img src="./img/Hubway_logo.png" height="100px" style="float:left; margin:3px 15px 3px 100px;" alt="Bike Logo"></a>
+		<h1 style="color:white;text-align:right;margin-top:10px;font-size:24px;">USING HUBWAY DATA TO UNDERSTAND AND OPTIMIZE PEOPLE’S TRANSIT</h1>
+		<p style="color:white; text-align:right; font-size:12px;">This interactive website presents the analysis of the current gaps between existing MBTA routes and frequent Hubway paths in Cambridge, MA</p>
+		<hr style="color:white; text-align:right; font-size:8px;"> 
+		Data source: Cambridge public transportation lively routes from MBTA;</br>
+		2017 annual behaviour of Hubway riders between stations from Hubway official website by month.
+		</hr>
+	</div> 
+	<!-- Legend -->
+	<div id="legend"><img src="./img/legenddiff.png" height="240px" alt="Legend"></div>
+	<!--buttonGroup-->
+	<div id="buttongroup">
+			<!--TimeSLider-->
+			<div id="Timebutton" style="position: absolute; width: 30px; margin-top: -1%; margin-left:0%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Time</div>
+			<div class="range-slider" style="position: absolute; margin-top: -2%; margin-left: 10%;">
+				<input class="input-range" type="range" value="8" min="0" max="24">
+				<span class="range-value" type = "number" ></span>
+			</div> 
+			<input type="checkbox" id="icd" name="icd" value="icd" style="position: absolute; margin-top: -1%; margin-left: 55%;" unchecked/>
+			<h6 style="position: absolute; margin-top: -1.2%; margin-left: 58%;">Display station clusters</h6>
+			<div id="monthbutton" style="position: absolute; width: 30px; margin-top: 4%; margin-left:0%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Month</div>
+			<button id="buttonjan" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:10%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;" autofocus>Jan</button>
+			<button id="buttonfeb" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:17%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Feb</button>
+			<button id="buttonmar" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:24%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Mar</button>
+			<button id="buttonapr" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:31%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Apr</button>
+			<button id="buttonmay" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:38%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">May</button>
+			<button id="buttonjun" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:45%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Jun</button>
+			<button id="buttonjul" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:52%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Jul</button>
+			<button id="buttonaug" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:59%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Aug</button>
+			<button id="buttonsep" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:66%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Sep</button>
+			<button id="buttonoct" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:73%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Oct</button>
+			<button id="buttonnov" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:80%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Nov</button>
+			<button id="buttondec" class = "focus" style="position: absolute; width: 54px; margin-top: 3%; margin-left:87%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;">Dec</button>
+		</div>	
+	<!--sidebar-->
+	<div id="sidebar">
+		<div id='inner'>
+			<h2>Inbound and Outbound analysis</h2>
+			<div id="table_div"style="position: relative; top: 20px;"></div>
+			<div id="table_reverse_div" style="position: relative; top: 60px;"></div>
+			<div id="curve_chart" style="position: relative; top: 100px;"></div>
+		</div>
+	</div>
+	<!-- button to close and open the sidebar-->
+	<div id="title_bar">
+		<div id="button"><img src="./img/minimize.png" height="30px" alt="arrow"></div>
+	</div>
+	<!--button that direct to different html-->
+	<ul>
+		<li><a href="Analysis_0508.html">ANALYSIS</a></li>
+		<li><a href="Application_0508.html">APPLICATION</a></li>
+		<li><a href="About_0508.html">ABOUT</a></li> 
+	</ul>
+</div>
+
+
+<script type="text/javascript">
+	var markerArray = [];
+	var markerArray_end = [];
+	var infowindow = new google.maps.InfoWindow({maxWidth: 300});
+	var infowindow_end = new google.maps.InfoWindow({maxWidth: 300});
+	var infowindow_cluster = new google.maps.InfoWindow({maxWidth: 300});
+	var geocoder = new google.maps.Geocoder();
+
+
+// The button to toggle sidebar
+$("#button").click(function (){
+	var duration = 400;
+	$('#sidebar').fadeToggle(duration);
+});
+
+// Time Slider
+var range = $('.input-range'),
+    value = $('.range-value');
+value.html(range.attr('value'));
+range.on('input', function(){
+	value.html(this.value);
+	});
+
+
+
+
+// Start the map
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+// ------------------------- Function: Initialize map ------------------------- //
+function initialize() {
+	//clearMarkers();
+	var styledMap = new google.maps.StyledMapType(blackMap,
+	 {name: "Styled Map"});
+	var mapOptions = {
+		center: { lat: 42.364498, lng: -71.070883},
+		zoom: 14,
+		maxZoom:18,
+		mapTypeControlOptions: {
+			mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'blackMap'],
+			position: google.maps.ControlPosition.LEFT_BOTTOM
+		}
+	};
+	map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+	map.mapTypes.set('blackMap', styledMap);
+	map.setMapTypeId('blackMap');
+
+	google.maps.event.addListener(map, 'dragend', function() {
+	var bounds = map.getBounds();
+
+	});
+	var Time = value[0].innerHTML;
+	var subset= diffjan.filter( record => record.hour == Time );
+	initMap_nocluster(subset, diffjan);
+	var byDiff = diffjan.filter( record => record.hour == Time ).slice(0);
+	byDiff.sort(function(a,b){
+		var x = a.Diff;
+		var y = b.Diff;
+		return x < y ? -1 : x > y ? 1: 0;
+	});
+	var reverseDiff = byDiff.slice().reverse();
+	initTable(byDiff);
+	initTable2(reverseDiff);
+}
+
+
+
+// ------------------------- Function: Click month buttons to draw map, chart, tables------------------------- //
+$('#buttonjan').click(function DrawRoutesAndChart(){
+	var Time = value[0].innerHTML;
+	var subset= diffjan.filter( record => record.hour == Time );
+	// Decide to draw clusters or not
+
+	if ( document.getElementById('icd').checked === false ) {
+		initMap_nocluster(subset, diffjan);
+	} else{
+		initMap_cluster(subset, diffjan);
+	}	
+	// Show statistics table
+	var byDiff = diffjan.filter( record => record.hour == Time ).slice(0);
+	byDiff.sort(function(a,b){
+		var x = a.Diff;
+		var y = b.Diff;
+		return x < y ? -1 : x > y ? 1: 0;
+	});
+	var reverseDiff = byDiff.slice().reverse();
+	initTable(byDiff);
+	initTable2(reverseDiff);
+});
+
+$('#buttonfeb').click(function DrawRoutesAndChart(){
+	var Time = value[0].innerHTML;
+	var subset= difffeb.filter( record => record.hour == Time );
+	
+	// Decide to draw clusters or not
+	if ( document.getElementById('icd').checked === false ) {
+		initMap_nocluster(subset, difffeb);
+	} else{
+		initMap_cluster(subset, difffeb);
+	}
+	
+	// Show statistics table
+	var byDiff = difffeb.filter( record => record.hour == Time ).slice(0);
+	byDiff.sort(function(a,b){
+		var x = a.Diff;
+		var y = b.Diff;
+		return x < y ? -1 : x > y ? 1: 0;
+	});
+	var reverseDiff = byDiff.slice().reverse();
+	initTable(byDiff);
+	initTable2(reverseDiff);
+});
+
+$('#buttonmar').click(function DrawRoutesAndChart(){
+	var Time = value[0].innerHTML;
+	var subset= diffmar.filter( record => record.hour == Time );
+
+	// Decide to draw clusters or not
+	if ( document.getElementById('icd').checked === false ) {
+		initMap_nocluster(subset, diffmar);
+	} else{
+		initMap_cluster(subset, diffmar);
+	}
+	
+	// Show statistics table
+	var byDiff = diffmar.filter( record => record.hour == Time ).slice(0);
+	byDiff.sort(function(a,b){
+		var x = a.Diff;
+		var y = b.Diff;
+		return x < y ? -1 : x > y ? 1: 0;
+	});
+	var reverseDiff = byDiff.slice().reverse();
+	initTable(byDiff);
+	initTable2(reverseDiff);
+});
+
+$('#buttonapr').click(function DrawRoutesAndChart(){
+	var Time = value[0].innerHTML;
+	var subset= diffapr.filter( record => record.hour == Time );
+	
+	// Decide to draw clusters or not
+	if ( document.getElementById('icd').checked === false ) {
+		initMap_nocluster(subset, diffapr);
+	} else{
+		initMap_cluster(subset, diffapr);
+	}
+	
+	// Show statistics table
+	var byDiff = diffapr.filter( record => record.hour == Time ).slice(0);
+	byDiff.sort(function(a,b){
+		var x = a.Diff;
+		var y = b.Diff;
+		return x < y ? -1 : x > y ? 1: 0;
+	});
+	var reverseDiff = byDiff.slice().reverse();
+	initTable(byDiff);
+	initTable2(reverseDiff);
+});
+
+$('#buttonmay').click(function DrawRoutesAndChart(){
+	var Time = value[0].innerHTML;
+	var subset= diffmay.filter( record => record.hour == Time );
+
+	// Decide to draw clusters or not
+	if ( document.getElementById('icd').checked === false ) {
+		initMap_nocluster(subset, diffmay);
+	} else{
+		initMap_cluster(subset, diffmay);
+	}
+	
+	// Show statistics table
+	var byDiff = diffmay.filter( record => record.hour == Time ).slice(0);
+	byDiff.sort(function(a,b){
+		var x = a.Diff;
+		var y = b.Diff;
+		return x < y ? -1 : x > y ? 1: 0;
+	});
+	var reverseDiff = byDiff.slice().reverse();
+	initTable(byDiff);
+	initTable2(reverseDiff);
+});
+
+$('#buttonjun').click(function DrawRoutesAndChart(){
+	var Time = value[0].innerHTML;
+	var subset= diffjun.filter( record => record.hour == Time );
+
+	// Decide to draw clusters or not
+	if ( document.getElementById('icd').checked === false ) {
+		initMap_nocluster(subset, diffjun);
+	} else{
+		initMap_cluster(subset, diffjun);
+	}
+	
+	// Show statistics table
+	var byDiff = diffjun.filter( record => record.hour == Time ).slice(0);
+	byDiff.sort(function(a,b){
+		var x = a.Diff;
+		var y = b.Diff;
+		return x < y ? -1 : x > y ? 1: 0;
+	});
+	var reverseDiff = byDiff.slice().reverse();
+	initTable(byDiff);
+	initTable2(reverseDiff);
+});
+
+$('#buttonjul').click(function DrawRoutesAndChart(){
+	var Time = value[0].innerHTML;
+	var subset= diffjul.filter( record => record.hour == Time );
+
+	// Decide to draw clusters or not
+	if ( document.getElementById('icd').checked === false ) {
+		initMap_nocluster(subset, diffjul);
+	} else{
+		initMap_cluster(subset, diffjul);
+	}
+	
+	// Show statistics table
+	var byDiff = diffjul.filter( record => record.hour == Time ).slice(0);
+	byDiff.sort(function(a,b){
+		var x = a.Diff;
+		var y = b.Diff;
+		return x < y ? -1 : x > y ? 1: 0;
+	});
+	var reverseDiff = byDiff.slice().reverse();
+	initTable(byDiff);
+	initTable2(reverseDiff);
+});
+
+$('#buttonaug').click(function DrawRoutesAndChart(){
+	var Time = value[0].innerHTML;
+	var subset= diffaug.filter( record => record.hour == Time );
+
+	// Decide to draw clusters or not
+	if ( document.getElementById('icd').checked === false ) {
+		initMap_nocluster(subset, diffaug);
+	} else{
+		initMap_cluster(subset, diffaug);
+	}
+	
+	// Show statistics table
+	var byDiff = diffaug.filter( record => record.hour == Time ).slice(0);
+	byDiff.sort(function(a,b){
+		var x = a.Diff;
+		var y = b.Diff;
+		return x < y ? -1 : x > y ? 1: 0;
+	});
+	var reverseDiff = byDiff.slice().reverse();
+	initTable(byDiff);
+	initTable2(reverseDiff);
+});
+
+$('#buttonsep').click(function DrawRoutesAndChart(){
+	var Time = value[0].innerHTML;
+	var subset= diffsep.filter( record => record.hour == Time );
+
+	// Decide to draw clusters or not
+	if ( document.getElementById('icd').checked === false ) {
+		initMap_nocluster(subset, diffsep);
+	} else{
+		initMap_cluster(subset, diffsep);
+	}
+	
+	// Show statistics table
+	var byDiff = diffsep.filter( record => record.hour == Time ).slice(0);
+	byDiff.sort(function(a,b){
+		var x = a.Diff;
+		var y = b.Diff;
+		return x < y ? -1 : x > y ? 1: 0;
+	});
+	var reverseDiff = byDiff.slice().reverse();
+	initTable(byDiff);
+	initTable2(reverseDiff);
+});
+
+$('#buttonoct').click(function DrawRoutesAndChart(){
+	var Time = value[0].innerHTML;
+	var subset= diffoct.filter( record => record.hour == Time );
+
+	// Decide to draw clusters or not
+	if ( document.getElementById('icd').checked === false ) {
+		initMap_nocluster(subset, diffoct);
+	} else{
+		initMap_cluster(subset, diffoct);
+	}
+	
+	// Show statistics table
+	var byDiff = diffoct.filter( record => record.hour == Time ).slice(0);
+	byDiff.sort(function(a,b){
+		var x = a.Diff;
+		var y = b.Diff;
+		return x < y ? -1 : x > y ? 1: 0;
+	});
+	var reverseDiff = byDiff.slice().reverse();
+	initTable(byDiff);
+	initTable2(reverseDiff);
+});
+
+$('#buttonnov').click(function DrawRoutesAndChart(){
+	var Time = value[0].innerHTML;
+	var subset= diffnov.filter( record => record.hour == Time );
+
+	// Decide to draw clusters or not
+	if ( document.getElementById('icd').checked === false ) {
+		initMap_nocluster(subset, diffnov);
+	} else{
+		initMap_cluster(subset, diffnov);
+	}
+	
+	// Show statistics table
+	var byDiff = diffnov.filter( record => record.hour == Time ).slice(0);
+	byDiff.sort(function(a,b){
+		var x = a.Diff;
+		var y = b.Diff;
+		return x < y ? -1 : x > y ? 1: 0;
+	});
+	var reverseDiff = byDiff.slice().reverse();
+	initTable(byDiff);
+	initTable2(reverseDiff);
+});
+
+$('#buttondec').click(function DrawRoutesAndChart(){
+	var Time = value[0].innerHTML;
+	var subset= diffdec.filter( record => record.hour == Time );
+
+	// Decide to draw clusters or not
+	if ( document.getElementById('icd').checked === false ) {
+		initMap_nocluster(subset, diffdec);
+	} else{
+		initMap_cluster(subset, diffdec);
+	}
+	
+	// Show statistics table
+	var byDiff = diffdec.filter( record => record.hour == Time ).slice(0);
+	byDiff.sort(function(a,b){
+		var x = a.Diff;
+		var y = b.Diff;
+		return x < y ? -1 : x > y ? 1: 0;
+	});
+	var reverseDiff = byDiff.slice().reverse();
+	initTable(byDiff);
+	initTable2(reverseDiff);
+});
+
+
+
+// ------------------------- Function: Draw map that has no clusters ------------------------- //
+function initMap_nocluster(tripdata, originaldata) {
+
+	DrawDiffs(tripdata);
+
+	function DrawDiffs(Diffdata){
+		var positiveDiff= tripdata.filter( record => record.Diff >= 0 );
+		var negativeDiff= tripdata.filter( record => record.Diff < 0 );
+
+		var styledMap = new google.maps.StyledMapType(blackMap, {name: "Styled Map"});
+		var mapOptions = {
+			center: { lat: 42.364498, lng: -71.070883},
+			zoom: 13.5,
+			maxZoom:18,
+			mapTypeControlOptions: {
+				mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'blackMap'],
+				position: google.maps.ControlPosition.LEFT_BOTTOM
+			}
+		};
+
+		var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+		var zoomlevel = map.getZoom();
+		map.mapTypes.set('blackMap', styledMap);
+		map.setMapTypeId('blackMap');
+		google.maps.event.addListener(map, 'dragend', function() {
+			var bounds = map.getBounds();
+		});
+
+		// posi
+		for (var i = 0; i < positiveDiff.length; i++){
+			var coord = new google.maps.LatLng(positiveDiff[i].lat, positiveDiff[i].lon);
+			var size = positiveDiff[i].Diff/3;
+			var image = {
+				url: './img/posidiff.png', // image is 512 x 512
+				anchor: new google.maps.Point(Math.abs(size)/2,Math.abs(size)/2),
+				scaledSize : new google.maps.Size(Math.abs(size),Math.abs(size)),
+			};
+
+			var marker = new google.maps.Marker({
+				position: coord,
+				clickable: true,
+				icon: image,
+				alpha: 0.3,
+				map: map,
+				title: positiveDiff[i].station
+			});
+
+			google.maps.event.addListener(marker, 'mouseover', (function (marker, i) {
+				return function () {
+					var diff = Math.ceil(Math.abs(positiveDiff[i].Diff/30));
+					infowindow.setContent(positiveDiff[i].station + '<br>' + diff + ' more Outbound than Inbound');
+					infowindow.open(map, marker);
+				}
+			})(marker, i));
+
+			google.maps.event.addListener(marker, 'click', (function(marker) {
+				return function() {
+					var name = marker.getTitle();
+					//console.log(name);
+					var subset = originaldata.filter(data=>data.station == name);
+					var diff = Math.ceil(Math.abs(subset.filter(data=>data.hour == value[0].innerHTML)[0].Diff/30));
+					//console.log(diff);
+					infowindow_cluster.setContent(this.getTitle() + " stations<br>" + diff + " more Inbound than Outbound");
+					infowindow_cluster.open(map, this);
+					//console.log(subset);
+					initChart(subset, name);
+				}
+			})(marker,i));
+
+
+			markerArray.push(marker);
+
+			google.maps.event.addListener(marker, 'mouseout', function(){
+				infowindow.close();
+			});
+		}
+
+		// nega
+		for (var i = 0; i < negativeDiff.length; i++){
+			var coord = new google.maps.LatLng(negativeDiff[i].lat, negativeDiff[i].lon);
+			var size = negativeDiff[i].Diff/3;
+			var image = {
+				url: './img/negadiff.png', // image is 512 x 512
+				anchor: new google.maps.Point(Math.abs(size)/2,Math.abs(size)/2),
+				scaledSize : new google.maps.Size(Math.abs(size),Math.abs(size)),
+			};
+
+			var marker = new google.maps.Marker({
+				position: coord,
+				clickable: true,
+				icon: image,
+				alpha: 0.3,
+				map: map,
+				title: negativeDiff[i].station
+			});
+
+			google.maps.event.addListener(marker, 'mouseover', (function (marker, i) {
+				return function () {
+					var diff = Math.ceil(Math.abs(negativeDiff[i].Diff/30));
+					infowindow.setContent(negativeDiff[i].station + '<br>' + diff + ' more Inbound than Outbound');
+					infowindow.open(map, marker);
+				}
+			})(marker, i));
+
+			google.maps.event.addListener(marker, 'click', (function(marker) {
+				return function() {
+					var name = marker.getTitle();
+					//console.log(name);
+					var subset = originaldata.filter(data=>data.station == name);
+					var diff = Math.ceil(Math.abs(subset.filter(data=>data.hour == value[0].innerHTML)[0].Diff/30));
+					infowindow_cluster.setContent(this.getTitle() + " stations<br>" + diff + " more Outbound than Inbound");
+					infowindow_cluster.open(map, this);
+						//console.log(subset);
+						initChart(subset, name);
+					}
+					})(marker,i));
+
+			markerArray.push(marker);
+
+			google.maps.event.addListener(marker, 'mouseout', function(){
+				infowindow.close();
+			});
+		}
+
+	}
+
+}
+
+
+// ------------------------- Function: Draw map that show clusters ------------------------- //
+function initMap_cluster(tripdata,originaldata) {
+		DrawClusters(tripdata);
+
+		function DrawClusters(Diffdata) {
+			var posi = Diffdata.filter(data=>data.Diff >=0);
+			var nega = Diffdata.filter(data=>data.Diff < 0);
+ 
+ 			var styledMap = new google.maps.StyledMapType(blackMap, {name: "Styled Map"});
+			var mapOptions = {
+				center: { lat: 42.364498, lng: -71.070883},
+				zoom: 13,
+				maxZoom:18,
+				mapTypeControlOptions: {
+					mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'blackMap'],
+					position: google.maps.ControlPosition.LEFT_BOTTOM
+				}
+			};
+
+			var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+			var zoomlevel = map.getZoom();
+			map.mapTypes.set('blackMap', styledMap);
+			map.setMapTypeId('blackMap');
+			google.maps.event.addListener(map, 'dragend', function() {
+				var bounds = map.getBounds();
+			});
+
+			var clusterMarkers_posi = [];
+			var clusterMarkers_nega = [];
+
+			// loop for posi
+			for (var i = 0; i < posi.length; i++){
+				var coord = new google.maps.LatLng(posi[i].lat, posi[i].lon);
+				var name = posi[i].station;
+				var label = posi[i].Diff;
+				var size = posi[i].Diff/3;
+				var image = {
+					url: './img/posidiff.png', // image is 512 x 512
+					anchor: new google.maps.Point(Math.abs(size)/2,Math.abs(size)/2),
+					scaledSize : new google.maps.Size(Math.abs(size),Math.abs(size))
+				};
+				var marker = new google.maps.Marker({
+					position: coord,
+					clickable: true,
+					icon: image,
+					alpha: 0.3,
+					map: map,
+					title: name,
+					//snippet: label
+				});
+
+				clusterMarkers_posi.push(marker);
+
+				var options_markerclusterer_posi = {
+					gridSize: 20,
+					maxZoom: 18,
+					zoomOnClick: false,
+					styles: clusterStyles_posi
+					//imagePath:  'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+				};
+
+
+				var clusterStyles_posi = [
+				{
+					textColor: 'white',
+					url: './img/m3.png',
+					height: 70,
+					width: 70
+				},
+				{
+					textColor: 'white',
+					url: './img/m3.png',
+					height: 70,
+					width: 70
+				},
+				{
+					textColor: 'white',
+					url: './img/m3.png',
+					height: 70,
+					width: 70
+				}
+				];
+			
+			};
+
+
+			for (var i = 0; i < nega.length; i++){
+				var coord = new google.maps.LatLng(nega[i].lat, nega[i].lon);
+				var name = nega[i].station;
+				var size = nega[i].Diff/3;
+				var image = {
+					url: './img/negadiff.png', // image is 512 x 512
+					anchor: new google.maps.Point(Math.abs(size)/2,Math.abs(size)/2),
+					scaledSize : new google.maps.Size(Math.abs(size),Math.abs(size))
+				};
+				var marker = new google.maps.Marker({
+					position: coord,
+					clickable: true,
+					icon: image,
+					alpha: 0.3,
+					map: map,
+					title: name
+				});
+
+				clusterMarkers_nega.push(marker);
+
+				var options_markerclusterer_nega = {
+					gridSize: 20,
+					maxZoom: 18,
+					zoomOnClick: false,
+					styles: clusterStyles_nega
+					//imagePath:  'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+				};
+
+
+				var clusterStyles_nega = [
+				{
+					textColor: 'white',
+					url: './img/m1.png',
+					height: 70,
+					width: 70
+				},
+				{
+					textColor: 'white',
+					url: './img/m1.png',
+					height: 70,
+					width: 70
+				},
+				{
+					textColor: 'white',
+					url: './img/m1.png',
+					height: 70,
+					width: 70
+				}
+				];
+			
+			};
+
+			var markerCluster_posi = new MarkerClusterer(map, clusterMarkers_posi, options_markerclusterer_posi);
+			var markerCluster_nega = new MarkerClusterer(map, clusterMarkers_nega, options_markerclusterer_nega);
+			    
+			google.maps.event.addListener(markerCluster_posi, 'clusterclick', function(cluster) {				
+				var markers = cluster.getMarkers();
+				var array = [];
+				var num = 0;	
+				for(i = 0; i < markers.length; i++) {
+					num++;
+					array.push(markers[i].getTitle());
+				}
+				if (map.getZoom() <= markerCluster_posi.getMaxZoom()) {
+					infowindow_cluster.setContent(markers.length + " stations<br>" + array);
+					infowindow_cluster.setPosition(cluster.getCenter());
+					infowindow_cluster.open(map);
+				}    
+			});
+
+			google.maps.event.addListener(markerCluster_nega, 'clusterclick', function(cluster) {				
+				var markers = cluster.getMarkers();
+				var array = [];
+				var num = 0;	
+				for(i = 0; i < markers.length; i++) {
+					num++;
+					array.push(markers[i].getTitle() + '<br>');
+				}
+				if (map.getZoom() <= markerCluster_nega.getMaxZoom()) {
+					infowindow_cluster.setContent(markers.length + " stations<br>" + array);
+					infowindow_cluster.setPosition(cluster.getCenter());
+					infowindow_cluster.open(map);
+				}    
+			});
+
+
+			for(i = 0; i < clusterMarkers_posi.length; i++) {
+				var marker = clusterMarkers_posi[i];
+				//console.log(marker.getTitle());
+					google.maps.event.addListener(marker, 'click', (function(marker) {
+						return function() {
+						var name = marker.title;
+						var subset = originaldata.filter(data=>data.station == name);
+						var diff = Math.ceil(Math.abs(subset.filter(data=>data.hour == value[0].innerHTML)[0].Diff/30));
+						console.log(diff);
+						infowindow_cluster.setContent(this.getTitle() + "<br>" + diff + " more Inbound than Outbound");
+						infowindow_cluster.open(map, this);
+						//console.log(subset);
+						initChart(subset, name);
+					}
+					})(marker,i));
+				}
+
+			for(i = 0; i < clusterMarkers_nega.length; i++) {
+				var marker = clusterMarkers_nega[i];
+				//console.log(marker.getTitle());
+					google.maps.event.addListener(marker, 'click', (function(marker) {
+						return function() {
+						var name = marker.title;
+						var subset = originaldata.filter(data=>data.station == name);
+						var diff = Math.ceil(Math.abs(subset.filter(data=>data.hour == value[0].innerHTML)[0].Diff/30));
+						infowindow_cluster.setContent(this.getTitle() + "<br>" + diff + " more Outbound than Inbound");
+						infowindow_cluster.open(map, this);
+
+						//console.log(subset);
+						initChart(subset, name);
+					}
+					})(marker,i));
+				}
+
+		}
+
+
+	}
+
+
+
+// ------------------------- Function: Draw chart ------------------------- //
+google.charts.load('current', {'packages':['line']});
+
+// Draw charts
+function initChart(monthdata, name){
+	//the highcharts graph function
+    google.charts.load('current', {'packages':['line']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+	    var data = new google.visualization.DataTable();
+		data.addColumn('number', 'Hour'); 
+		// data.addColumn('string', 'Station');
+		data.addColumn('number', 'Difference')
+		var montharray = [];
+
+		for (var i = 0; i<monthdata.length; i++){
+		montharray.push([
+			monthdata[i].hour,
+			Math.ceil(monthdata[i].Diff/30)
+			]);
+		}
+		data.addRows(montharray);
+
+			
+		var time = value[0].innerText;
+		console.log(time);
+		var options = {
+			chart:{
+				title: 'Bike Number Performance at ' + name, 
+
+		    },
+
+			series:{
+				0: {axis: 'Difference'}
+			},
+			axes:{
+			    y:{
+			    	Difference:{label:'Bike Difference Number'}
+			    }
+			},
+			backgroundColor: { fill:'transparent' }
+			}
+	    var chart = new google.charts.Line(
+		document.getElementById('curve_chart'));
+
+		chart.draw(data, google.charts.Line.convertOptions(options));
+		};
+
+		
+		}
+
+
+
+// ------------------------- Function: Draw tables ------------------------- //
+function initTable(monthdata, Time){
+	//the highcharts graph function
+	google.charts.load('current', {packages: ['table']});
+	google.charts.setOnLoadCallback(drawTable);
+
+        function drawTable() {
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Top 10 Inbound Stations');
+            data.addColumn('number', 'Hour');
+            data.addColumn('number', 'Difference');
+			//data.addColumn('number','Docks');
+		    var montharray = [];
+
+		    for(var i = 0; i<10; i++){
+				//var docknumber = docks.filter(data.Station == monthdata[i].station)['# of Docks'];
+				montharray.push([
+					monthdata[i].station, 
+					monthdata[i].hour, 
+					Math.ceil(Math.abs(monthdata[i].Diff/30)),
+					//docknumber
+					]);
+		    }
+
+		    data.addRows(montharray);
+		    
+		    var cssClassNames = {
+              headerRow: 'header-row-style',
+              tableRow: 'row-style',
+              oddTableRow: 'odd-row-style',
+              headerCell: 'header-cell-style',
+			  hoverTableRow: 'csshoverstyle'
+            };
+
+            var options = {
+              showRowNumber: true,
+              allowHtml: true,
+              cssClassNames: cssClassNames,
+			  width: "90%"
+            };
+            
+            var table = new google.visualization.Table(
+        	    document.getElementById('table_div'));
+
+            table.draw(data, options);
+        }
+    }
+
+function initTable2(monthdata){
+	//the highcharts graph function
+	google.charts.load('current', {packages: ['table']});
+	google.charts.setOnLoadCallback(drawTable);
+
+        function drawTable() {
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Top 10 Outbound Station');
+            data.addColumn('number', 'Hour');
+            data.addColumn('number', 'Difference');
+		    var montharray = [];
+
+		    for(var i = 0; i<10; i++){
+				montharray.push([
+					monthdata[i].station, 
+					monthdata[i].hour, 
+					Math.ceil(Math.abs(monthdata[i].Diff/30))
+					]);
+		    }
+
+		    data.addRows(montharray);
+		    
+		    var cssClassNames = {
+              headerRow: 'header-row-style',
+              tableRow: 'row-style',
+              oddTableRow: 'odd-row-style',
+              headerCell: 'header-cell-style',
+			  hoverTableRow: 'csshoverstyle'
+            };
+
+            var options = {
+              showRowNumber: true,
+              allowHtml: true,
+              cssClassNames: cssClassNames,
+			  width: "90%"
+            };
+            
+            var table = new google.visualization.Table(
+        	    document.getElementById('table_reverse_div'));
+
+            table.draw(data, options);
+        }
+    }
+
+
+//setAllMap function
+function setAllMap(map) {
+	for (var i = 0; i < markerArray.length; i++) {
+		markerArray[i].setMap(map);
+	}
+}
+
+</script>
+</body>
+</html>

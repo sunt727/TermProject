@@ -1,0 +1,15 @@
+<div class="range-slider" style="position: relative;top: 100px;">
+    <input class="input-range" type="range" value="1" min="0" max="24">
+    <span class="range-value"></span>
+</div> 
+
+<script>
+    var range = $('.input-range'),
+        value = $('.range-value');
+        
+    value.html(range.attr('value'));
+
+    range.on('input', function(){
+        value.html(this.value);
+    }); 
+</script>

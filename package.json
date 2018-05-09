@@ -1,0 +1,19 @@
+{
+  "name": "jinghonglyu",
+  "version": "1.0.0",
+  "main": "csvtoJSON.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "csv": "^3.0.2",
+    "csvtojson": "^1.1.9",
+    "kmeans-node": "^0.1.0",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {},
+  "description": ""
+}

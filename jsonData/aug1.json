@@ -1,0 +1,122 @@
+var aug1 = [
+  {
+    "ID": 0,
+    "starthour": 0,
+    "Counts": 1324
+  },
+  {
+    "ID": 24,
+    "starthour": 1,
+    "Counts": 824
+  },
+  {
+    "ID": 33,
+    "starthour": 2,
+    "Counts": 548
+  },
+  {
+    "ID": 40,
+    "starthour": 3,
+    "Counts": 214
+  },
+  {
+    "ID": 47,
+    "starthour": 4,
+    "Counts": 290
+  },
+  {
+    "ID": 59,
+    "starthour": 5,
+    "Counts": 989
+  },
+  {
+    "ID": 119,
+    "starthour": 6,
+    "Counts": 3944
+  },
+  {
+    "ID": 338,
+    "starthour": 7,
+    "Counts": 11022
+  },
+  {
+    "ID": 897,
+    "starthour": 8,
+    "Counts": 18065
+  },
+  {
+    "ID": 1739,
+    "starthour": 9,
+    "Counts": 10264
+  },
+  {
+    "ID": 2174,
+    "starthour": 10,
+    "Counts": 7904
+  },
+  {
+    "ID": 2407,
+    "starthour": 11,
+    "Counts": 8552
+  },
+  {
+    "ID": 2678,
+    "starthour": 12,
+    "Counts": 10377
+  },
+  {
+    "ID": 3001,
+    "starthour": 13,
+    "Counts": 10091
+  },
+  {
+    "ID": 3278,
+    "starthour": 14,
+    "Counts": 10101
+  },
+  {
+    "ID": 3567,
+    "starthour": 15,
+    "Counts": 11141
+  },
+  {
+    "ID": 3923,
+    "starthour": 16,
+    "Counts": 16509
+  },
+  {
+    "ID": 4552,
+    "starthour": 17,
+    "Counts": 22035
+  },
+  {
+    "ID": 5495,
+    "starthour": 18,
+    "Counts": 16060
+  },
+  {
+    "ID": 6178,
+    "starthour": 19,
+    "Counts": 11407
+  },
+  {
+    "ID": 6645,
+    "starthour": 20,
+    "Counts": 7383
+  },
+  {
+    "ID": 6936,
+    "starthour": 21,
+    "Counts": 5092
+  },
+  {
+    "ID": 7154,
+    "starthour": 22,
+    "Counts": 4006
+  },
+  {
+    "ID": 7304,
+    "starthour": 23,
+    "Counts": 2509
+  }
+]
