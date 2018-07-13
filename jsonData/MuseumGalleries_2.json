@@ -1,0 +1,7546 @@
+var MuseumGalleries = [
+ {
+   "longitude": 4.891803,
+   "latitude": 52.362614,
+   "title": "Foam Editions",
+   "num_tags": 9707,
+   "Instagram account": "foam_amsterdam",
+   "number posts": 2646,
+   "number followers": 105000,
+   "dates": [
+      {
+         "startdate": "22-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Foam Editions",
+      "zipcode": "1017 HL",
+      "adress": "Vijzelstraat 78"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.foam.nl"
+   ],
+   "trcid": "57002f54-c421-4677-91f2-b3a0a17b9f2e",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.894035,
+   "latitude": 52.36935,
+   "title": "Galerie Mokum",
+   "num_tags": 73,
+   "Instagram account": "galeriemokum",
+   "number posts": 96,
+   "number followers": 1349,
+   "dates": [
+      {
+         "startdate": "18-04-2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Galerie Mokum",
+      "zipcode": "1012 GM",
+      "adress": "Oudezijds Voorburgwal 334"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.galeriemokum.com/"
+   ],
+   "trcid": "b92dc3c4-c4ff-461a-b53d-da18e468b153",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.892222,
+   "latitude": 52.373056,
+   "title": "Stichting WG-Kunst",
+   "num_tags": 266,
+   "Instagram account": "wgkunst",
+   "number posts": 96,
+   "number followers": 767,
+   "dates": [
+      {
+         "startdate": "22-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Stichting WG-Kunst",
+      "zipcode": "1054 SP",
+      "adress": "M v Bouwdk Bastiaansestr 28"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.wgkunst.nl/"
+   ],
+   "trcid": "721ccae6-80e8-459f-9590-85a77751febc",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.890257,
+   "latitude": 52.36521,
+   "title": "Lieve Hemel",
+   "num_tags": 153,
+   "Instagram account": "galerielievehemel",
+   "number posts": 40,
+   "number followers": 157,
+   "dates": [
+      {
+         "startdate": "22-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Lieve Hemel",
+      "zipcode": "1017 DB",
+      "adress": "Nieuwe Spiegelstraat 3"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.lievehemel.nl/"
+   ],
+   "trcid": "cda376b6-7147-4ecf-9af3-64fdaa6d468c",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.897631,
+   "latitude": 52.371321,
+   "title": "Anadolu 3-D Holography",
+   "num_tags": 0,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Anadolu 3-D Holography",
+      "zipcode": "1012 CD",
+      "adress": "Oude Hoogstraat 15"
+   },
+   "FIELD19": "",
+   "urls": [
+      ""
+   ],
+   "trcid": "9fb695f6-a3d5-4d32-ab15-509fa8d49e30",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.843816,
+   "latitude": 52.241937,
+   "title": "Kunstuitleen en Galerie Timeless",
+   "num_tags": 0,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "UITHOORN",
+      "name": "Kunstuitleen en Galerie Timeless",
+      "zipcode": "1422 DZ",
+      "adress": "Ondernemingsweg 45"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.kunstuitleen-timeless.nl"
+   ],
+   "trcid": "f9dad757-0bfc-4813-9028-285f8fe70562",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.877291,
+   "latitude": 52.371246,
+   "title": "Annet Gelink Gallery",
+   "num_tags": 985,
+   "Instagram account": "annetgelinkgallery",
+   "number posts": 519,
+   "number followers": 3360,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Annet Gelink Gallery",
+      "zipcode": "1016 PL",
+      "adress": "Laurierstraat 187-189"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.annetgelink.com"
+   ],
+   "trcid": "f5c9eca6-6ecb-4fee-8e8a-5a2b2d0a3d72",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.884704,
+   "latitude": 52.375627,
+   "title": "Galerie Paul Andriesse",
+   "num_tags": 6,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "15-08-2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Galerie Paul Andriesse",
+      "zipcode": "1016 GT",
+      "adress": "Leliegracht 47"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.paulandriesse.nl"
+   ],
+   "trcid": "22f1d636-3f20-49c4-93e3-44210721ab09",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.891983,
+   "latitude": 52.36015,
+   "title": "Akinci",
+   "num_tags": 171,
+   "Instagram account": "akincigallery",
+   "number posts": 161,
+   "number followers": 1789,
+   "dates": [
+      {
+         "startdate": "15-08-2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Akinci",
+      "zipcode": "1017 WZ",
+      "adress": "Lijnbaansgracht 317"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.akinci.nl/"
+   ],
+   "trcid": "67c46893-20a0-4647-9c6d-fda96dc5a6da",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.878379,
+   "latitude": 52.373448,
+   "title": "Fons Welters",
+   "num_tags": 866,
+   "Instagram account": "fonsweltersgallery",
+   "number posts": 360,
+   "number followers": 4448,
+   "dates": [
+      {
+         "startdate": "15-08-2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Fons Welters",
+      "zipcode": "1016 LJ",
+      "adress": "Bloemstraat 140"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.fonswelters.nl/"
+   ],
+   "trcid": "9d29203b-385e-464a-b6ff-aff865e70449",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.903484,
+   "latitude": 52.370466,
+   "title": "Van Zoetendaal Photography",
+   "num_tags": 41,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Van Zoetendaal Photography",
+      "zipcode": "1011 KW",
+      "adress": "Oudeschans 67F"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.vanzoetendaal.nl/"
+   ],
+   "trcid": "1c3e48fd-4e7a-4dc7-bd4f-de5da51893f4",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.881248,
+   "latitude": 52.374686,
+   "title": "Eduard Planting Galerie",
+   "num_tags": 283,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Eduard Planting Galerie",
+      "zipcode": "1016 KS",
+      "adress": "Eerste Bloemdwarsstraat 2"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.eduardplanting.nl"
+   ],
+   "trcid": "51de3be4-abaf-4ebe-87b8-53a4ed364873",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.939348,
+   "latitude": 52.377177,
+   "title": "Galerie Pien Rademakers",
+   "num_tags": 38,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Galerie Pien Rademakers",
+      "zipcode": "1019 LE",
+      "adress": "KNSM-Laan 291"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.galerierademakers.nl/"
+   ],
+   "trcid": "97103d8e-6102-4967-af52-1324b107cc2e",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.883504,
+   "latitude": 52.377851,
+   "title": "KochxBos",
+   "num_tags": 518,
+   "Instagram account": "kochxbos",
+   "number posts": 153,
+   "number followers": 1515,
+   "dates": [
+      {
+         "startdate": "15-08-2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "KochxBos",
+      "zipcode": "1015 NR",
+      "adress": "Eerste Anjeliersdwarsstraat 36"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.kochxbos.com"
+   ],
+   "trcid": "9069004c-9be7-4b60-b7ca-25a68c5550d5",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.886539,
+   "latitude": 52.361354,
+   "title": "Galerie Alex Daniëls – Reflex Amsterdam",
+   "num_tags": 22,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "15-08-2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Galerie Alex Daniëls – Reflex Amsterdam ",
+      "zipcode": "1017 RX",
+      "adress": "Weteringschans 79A"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.reflexamsterdam.com/"
+   ],
+   "trcid": "ea44d135-ecd2-4f54-90a6-8c2034b64be4",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.880602,
+   "latitude": 52.372704,
+   "title": "Radar Architecture & Art",
+   "num_tags": 109,
+   "Instagram account": "radar_architecture_art",
+   "number posts": 156,
+   "number followers": 168,
+   "dates": [
+      {
+         "startdate": "15-08-2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Radar Architecture & Art",
+      "zipcode": "1016 PC",
+      "adress": "Eerste Rozendwarsstraat 17"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.radar-amsterdam.com"
+   ],
+   "trcid": "0409c302-180b-4292-8678-fc40957dbe39",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.896005,
+   "latitude": 52.373871,
+   "title": "w139",
+   "num_tags": 1970,
+   "Instagram account": "w139amsterdam",
+   "number posts": 855,
+   "number followers": 3755,
+   "dates": [
+      {
+         "startdate": "15-08-2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "w139",
+      "zipcode": "1012 JB",
+      "adress": "Warmoesstraat 139"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://w139.nl/"
+   ],
+   "trcid": "c0f82af6-5e72-40fd-b430-de8d847f8fe4",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.883329,
+   "latitude": 52.370445,
+   "title": "de Glaswerkplaats",
+   "num_tags": 1,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "7/5/2013"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "de Glaswerkplaats",
+      "zipcode": "1016 GG",
+      "adress": "Berenstraat 41"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.glassierkunst.nl/"
+   ],
+   "trcid": "eb62f7d7-1076-4982-83f3-3db8e9ceecf7",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.868855,
+   "latitude": 52.366862,
+   "title": "Beeldend Gesproken",
+   "num_tags": 66,
+   "Instagram account": "beeldendgesprokenkunst",
+   "number posts": 0,
+   "number followers": 1,
+   "dates": [
+      {
+         "startdate": "14-04-2015"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1053 RT",
+      "adress": "Hannie Dankbaarpassage 23"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.beeldendgesproken.nl"
+   ],
+   "trcid": "afed18f1-c1e4-4dab-9ce4-da8f4f05feee",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.955534,
+   "latitude": 52.315495,
+   "title": "CBK Zuidoost",
+   "num_tags": 387,
+   "Instagram account": "cbkzuidoost",
+   "number posts": 131,
+   "number followers": 453,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "CBK Zuidoost",
+      "zipcode": "1102 DR",
+      "adress": "Anton de Komplein 120"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.cbkzuidoost.nl"
+   ],
+   "trcid": "2fa2a483-d07c-4f3c-8968-151a377ab4fe",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.884359,
+   "latitude": 52.370287,
+   "title": "Dutch Accent",
+   "num_tags": 245,
+   "Instagram account": "dutch_accent",
+   "number posts": 304,
+   "number followers": 306,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Dutch Accent",
+      "zipcode": "1016 GG",
+      "adress": "Berenstraat 41"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.dutch-accent.nl"
+   ],
+   "trcid": "6724ce68-1ae4-4011-9841-de028f542408",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.886472,
+   "latitude": 52.36052,
+   "title": "De Portretwinkel",
+   "num_tags": 1,
+   "Instagram account": "deportretwinkel",
+   "number posts": 0,
+   "number followers": 5,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "De Portretwinkel",
+      "zipcode": "1071 ZD",
+      "adress": "Stadhouderskade 42"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.facebook.com/DePortretwinkel/"
+   ],
+   "trcid": "3def6b0e-ed35-44aa-80c9-86220dcd2c10",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.938826,
+   "latitude": 52.367073,
+   "title": "P//////AKT Project Space",
+   "num_tags": 311,
+   "Instagram account": "paktamsterdam",
+   "number posts": 324,
+   "number followers": 2539,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "P//////AKT Project Space",
+      "zipcode": "1019 AB",
+      "adress": "Zeeburgerpad 53"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.pakt.nu/"
+   ],
+   "trcid": "ace90f33-5b52-450d-87ba-274dc3cae4be",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.89227,
+   "latitude": 52.400623,
+   "title": "Sociëteit Sexyland",
+   "num_tags": 4898,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Sociëteit Sexyland",
+      "zipcode": "1033 RC",
+      "adress": "Ms. van Riemsdijkweg  39"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.sexyland.amsterdam/"
+   ],
+   "trcid": "a02e4738-6b73-4537-81cb-5489493ea3b3",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.895765,
+   "latitude": 52.362093,
+   "title": "Galerie Lemaire",
+   "num_tags": 69,
+   "Instagram account": "galerielemaire",
+   "number posts": 627,
+   "number followers": 977,
+   "dates": [
+      {
+         "startdate": "14-02-2017"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Galerie Lemaire",
+      "zipcode": "1017 LV",
+      "adress": "Reguliersgracht 80"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.gallery-lemaire.com/"
+   ],
+   "trcid": "32415554-12d5-4e32-9349-eab607f5637e",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.899517,
+   "latitude": 52.366665,
+   "title": "Kryon Art Gallery",
+   "num_tags": 331,
+   "Instagram account": "kryonamsterdam",
+   "number posts": 447,
+   "number followers": 1716,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Kryon Art Gallery",
+      "zipcode": "1017 AG",
+      "adress": "Amstel 182A"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.kryonamsterdam.com"
+   ],
+   "trcid": "c05db56f-9d48-4e63-a630-69e6dd9c7366",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.891755,
+   "latitude": 52.368862,
+   "title": "Maatschappij Arti et Amicitiae",
+   "num_tags": 0,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Maatschappij Arti et Amicitiae",
+      "zipcode": "1012 LB",
+      "adress": "Rokin 112"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.arti.nl/"
+   ],
+   "trcid": "b1cea8fe-962c-4527-835f-6f4237d18830",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.917682,
+   "latitude": 52.369138,
+   "title": "Galerie Franzis Engels",
+   "num_tags": 53,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "15-06-2016"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Galerie Franzis Engels",
+      "zipcode": "1018 ZN",
+      "adress": "Nieuwevaart 200"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.franzisengels.nl"
+   ],
+   "trcid": "2825d543-31d8-4b4d-8d0a-9523773861be",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.903094,
+   "latitude": 52.383063,
+   "title": "Framer Framed",
+   "num_tags": 558,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Framer Framed",
+      "zipcode": "1031 KT",
+      "adress": "IJpromenade 2"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.framerframed.nl"
+   ],
+   "trcid": "748052f6-1457-42e9-b686-184f434bc2b0",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.758602,
+   "latitude": 52.255266,
+   "title": "Galerie Sous-Terre",
+   "num_tags": 16,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AALSMEER",
+      "name": "Galerie Sous-Terre",
+      "zipcode": "1431 GA",
+      "adress": "Kudelstaartseweg 1"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.galerie-sous-terre.nl"
+   ],
+   "trcid": "90bfb566-0ce4-4ab6-b433-70a4cb610e32",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.886472,
+   "latitude": 52.36052,
+   "title": "Morren Galleries",
+   "num_tags": 501,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "13-07-2015"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Morren Galleries",
+      "zipcode": "1071 ZD",
+      "adress": "Stadhouderskade 42"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.morrengalleries.nl"
+   ],
+   "trcid": "b7359e1f-3ee9-44b9-a9f1-4c9571a8755c",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.879857,
+   "latitude": 52.370601,
+   "title": "Wim van Krimpen",
+   "num_tags": 34,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "15-08-2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Wim van Krimpen",
+      "zipcode": "1016 SP",
+      "adress": "Hazenstraat 20"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.wimvankrimpen.nl/"
+   ],
+   "trcid": "38532236-439e-4b30-a324-b6a0ee3633f0",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.897046,
+   "latitude": 52.37797,
+   "title": "5&33 Kunstgalerij",
+   "num_tags": 2128,
+   "Instagram account": "5and33",
+   "number posts": 442,
+   "number followers": 3913,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "5&33 Kunstgalerij",
+      "zipcode": "1012 TN",
+      "adress": "Martelaarsgracht"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.5and33.nl"
+   ],
+   "trcid": "37be150c-c699-42ad-b591-2b4d7cfdf9f1",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.864252,
+   "latitude": 52.370245,
+   "title": "Art Gallery Salon West",
+   "num_tags": 35,
+   "Instagram account": "salonwestartgallery",
+   "number posts": 174,
+   "number followers": 225,
+   "dates": [
+      {
+         "startdate": "6/6/2017"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Art Gallery Salon West",
+      "zipcode": "1057 JT",
+      "adress": "Admiraal de Ruijterweg 9"
+   },
+   "FIELD19": "",
+   "urls": [
+      ""
+   ],
+   "trcid": "d1a349c4-d8eb-45a7-a3ef-26d020799c3c",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.891599,
+   "latitude": 52.384154,
+   "title": "Ateliers Westerdok",
+   "num_tags": 65,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Ateliers Westerdok",
+      "zipcode": "1013 BH",
+      "adress": "Westerdok 318"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.atelierswesterdok.nl"
+   ],
+   "trcid": "2623593b-52d9-4497-9cec-2ef5dc44f5c2",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.2.4"
+      }
+   ]
+},
+ {
+   "longitude": 4.89662,
+   "latitude": 52.375899,
+   "title": "Museum of Medieval Torture Instruments",
+   "num_tags": 123,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "16-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Museum of Medieval Torture Instruments",
+      "zipcode": "1012 LK",
+      "adress": "Damrak 33"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.tortureamsterdam.com/"
+   ],
+   "trcid": "460d7921-1fba-42a6-9c9a-b8fc15c1b48e",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.1"
+      }
+   ]
+},
+ {
+   "longitude": 4.880696,
+   "latitude": 52.375658,
+   "title": "Electric Ladyland / Fluorescent Art Museum",
+   "num_tags": 417,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "24-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1015 TB",
+      "adress": "Tweede Leliedwarsstraat 5"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.electric-lady-land.com"
+   ],
+   "trcid": "ab4fd0ea-aeda-487d-97c8-f3c33d401250",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.856705,
+   "latitude": 52.349378,
+   "title": "Electrische Museumtramlijn",
+   "num_tags": 140,
+   "Instagram account": "museumtramlijn",
+   "number posts": 22,
+   "number followers": 59,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1075 XV",
+      "adress": "Amstelveenseweg 264"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.museumtramlijn.org"
+   ],
+   "trcid": "48863d8e-2a32-4c3e-a9dd-80780ba2b37d",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.910852,
+   "latitude": 52.368024,
+   "title": "De Burcht/ Nationaal Vakbondsmuseum",
+   "num_tags": 1,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1018 CP",
+      "adress": "Henri Polaklaan 9"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.deburcht.org"
+   ],
+   "trcid": "c5347d10-5252-4ebd-8650-84ffb9af5675",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.89596,
+   "latitude": 52.375218,
+   "title": "Amsterdam Conference Centre Beurs van Berlage",
+   "num_tags": 17,
+   "Instagram account": "beursvanberlageofficial",
+   "number posts": 130,
+   "number followers": 909,
+   "dates": [
+      {
+         "startdate": "23-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Amsterdam Conference Centre Beurs van Berlage",
+      "zipcode": "1012 ZJ",
+      "adress": "Damrak 243"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.beursvanberlage.nl"
+   ],
+   "trcid": "40c3617a-f679-43a2-9fec-0fe661fdf798",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.891297,
+   "latitude": 52.370415,
+   "title": "Amsterdam Museum",
+   "num_tags": 382,
+   "Instagram account": "amsterdammuseum",
+   "number posts": 100,
+   "number followers": 1224,
+   "dates": [
+      {
+         "startdate": "22-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1001 AC",
+      "adress": "Kalverstraat  92"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.amsterdammuseum.nl/"
+   ],
+   "trcid": "468c504e-2c9d-4d69-8327-5bb63a4ab627",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.897789,
+   "latitude": 52.375106,
+   "title": "Appie Baantjer Museum",
+   "num_tags": 5,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1012 HJ",
+      "adress": "Warmoesstraat  66"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.amsterdamexcursies.nl/pages/baantjermuseum.php"
+   ],
+   "trcid": "d52f95a0-ea94-43c0-a8d7-1885da01970f",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.891909,
+   "latitude": 52.385337,
+   "title": "Architectuurcentrum Amsterdam",
+   "num_tags": 174,
+   "Instagram account": "architectuurcentrum_amsterdam",
+   "number posts": 243,
+   "number followers": 1407,
+   "dates": [
+      {
+         "startdate": "23-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Architectuurcentrum Amsterdam",
+      "zipcode": "1011 VX",
+      "adress": "Prins Hendrikkade  600"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.arcam.nl/"
+   ],
+   "trcid": "664ffdf6-caa5-4182-9ef7-ada9332d4786",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.886355,
+   "latitude": 52.368534,
+   "title": "Bijbels Museum",
+   "num_tags": 279,
+   "Instagram account": "bijbelsmuseum",
+   "number posts": 66,
+   "number followers": 327,
+   "dates": [
+      {
+         "startdate": "23-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Bijbels Museum",
+      "zipcode": "1016 CH",
+      "adress": "Herengracht 366-368"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.bijbelsmuseum.nl"
+   ],
+   "trcid": "c07649d4-9d95-468c-94c3-45d0dcb63332",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.884267,
+   "latitude": 52.376381,
+   "title": "Amsterdam Tulip Museum",
+   "num_tags": 690,
+   "Instagram account": "amsterdamtulipmuseum",
+   "number posts": 7,
+   "number followers": 150,
+   "dates": [
+      {
+         "startdate": "22-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Amsterdam Tulip Museum",
+      "zipcode": "1015 EA",
+      "adress": "Prinsengracht 116"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.amsterdamtulipmuseum.com"
+   ],
+   "trcid": "257044c1-dc5b-47fd-9db2-349220309326",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.893071,
+   "latitude": 52.3685,
+   "title": "Allard Pierson Museum",
+   "num_tags": 950,
+   "Instagram account": "allardpierson",
+   "number posts": 82,
+   "number followers": 493,
+   "dates": [
+      {
+         "startdate": "22-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1012 GC",
+      "adress": "Oude Turfmarkt 127"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.allardpiersonmuseum.nl"
+   ],
+   "trcid": "286711d8-02de-4ea3-9767-b626c52fdbb9",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.846416,
+   "latitude": 52.302141,
+   "title": "Museum Jan van der Togt",
+   "num_tags": 136,
+   "Instagram account": "museumjanvandertogt",
+   "number posts": 111,
+   "number followers": 269,
+   "dates": [
+      {
+         "startdate": "6/12/2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTELVEEN",
+      "name": "",
+      "zipcode": "1182 JE",
+      "adress": "Dorpsstraat"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.jvdtogt.nl"
+   ],
+   "trcid": "56bf3e7a-c3ce-4f32-8994-a8c65be6d823",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.894337,
+   "latitude": 52.36384,
+   "title": "Museum Geelvinck",
+   "num_tags": 32,
+   "Instagram account": "museumgeelvinck",
+   "number posts": 7,
+   "number followers": 49,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1017 DS",
+      "adress": "Keizersgracht 633"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://geelvinck.nl/"
+   ],
+   "trcid": "0d8774c5-1ee1-4e18-93c9-7c4d8a10e98a",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.891049,
+   "latitude": 52.3774,
+   "title": "Multatuli Museum",
+   "num_tags": 43,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "25-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1015 AR",
+      "adress": "Korsjespoortsteeg 20"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.multatuli-museum.nl"
+   ],
+   "trcid": "b86d1c3c-1e51-4581-bea1-35448a73f80c",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.883228,
+   "latitude": 52.362316,
+   "title": "Schaakmuseum Max Euwe-Centrum",
+   "num_tags": 3,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "25-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1017 MB",
+      "adress": "Max Euweplein 30A-I"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.maxeuwe.nl"
+   ],
+   "trcid": "641f98f4-67be-4ef8-8a28-396928877445",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.899247,
+   "latitude": 52.373891,
+   "title": "Erotic Museum",
+   "num_tags": 295,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "24-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1012 DP",
+      "adress": "Oudezijds Achterburgwal 54"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.janot.com"
+   ],
+   "trcid": "af358edb-a519-4bb2-9dc5-ba51b6f87875",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.896984,
+   "latitude": 52.371738,
+   "title": "Hash Marihuana & Hemp Museum",
+   "num_tags": 404,
+   "Instagram account": "hashmuseum",
+   "number posts": 635,
+   "number followers": 5545,
+   "dates": [
+      {
+         "startdate": "24-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1012 DV",
+      "adress": "Oudezijds Achterburgwal 148"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.hashmuseum.com"
+   ],
+   "trcid": "9ea63c64-5e99-43b3-a6b6-f05bf70c3c29",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.893294,
+   "latitude": 52.363957,
+   "title": "Foam Fotografiemuseum Amsterdam",
+   "num_tags": 9707,
+   "Instagram account": "foam_amsterdam",
+   "number posts": 2646,
+   "number followers": 105000,
+   "dates": [
+      {
+         "startdate": "24-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Foam Fotografiemuseum Amsterdam",
+      "zipcode": "1017 DS",
+      "adress": "Keizersgracht 609"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.foam.org"
+   ],
+   "trcid": "ef903344-0de1-4127-90dc-13db968e1875",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.891529,
+   "latitude": 52.365534,
+   "title": "Kattenkabinet",
+   "num_tags": 3054,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "25-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1017 BT",
+      "adress": "Herengracht 497"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.kattenkabinet.nl/"
+   ],
+   "trcid": "0966a3f5-364b-4d54-a180-655fba8b312e",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.897912,
+   "latitude": 52.375081,
+   "title": "Koffie- en Theemuseum Geels & Co",
+   "num_tags": 0,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1012 HX",
+      "adress": "Warmoesstraat 67"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.geels.nl/"
+   ],
+   "trcid": "6606b5e1-e97c-444f-ba33-667863d96e3a",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.89008,
+   "latitude": 52.373127,
+   "title": "Koninklijk Paleis",
+   "num_tags": 6040,
+   "Instagram account": "paleisamsterdam",
+   "number posts": 436,
+   "number followers": 2576,
+   "dates": [
+      {
+         "startdate": "25-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Koninklijk Paleis",
+      "zipcode": "1012 JS",
+      "adress": "Dam"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.paleisamsterdam.nl"
+   ],
+   "trcid": "fa8d207c-84e9-44dc-ad9a-2fa2cc5b6a86",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.903915,
+   "latitude": 52.367349,
+   "title": "Joods Historisch Museum",
+   "num_tags": 1232,
+   "Instagram account": "joodshistorischmuseum",
+   "number posts": 4,
+   "number followers": 344,
+   "dates": [
+      {
+         "startdate": "25-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1011 PL",
+      "adress": "Nieuwe Amstelstraat 1"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.jhm.nl"
+   ],
+   "trcid": "95404120-70b7-427f-bd55-485b7bd144a5",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.89913,
+   "latitude": 52.365511,
+   "title": "Museum Willet-Holthuysen",
+   "num_tags": 350,
+   "Instagram account": "museumwillet",
+   "number posts": 9,
+   "number followers": 302,
+   "dates": [
+      {
+         "startdate": "7/12/2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1017 CE",
+      "adress": "Herengracht 605"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.willetholthuysen.nl"
+   ],
+   "trcid": "56031fef-3398-4d0a-910b-956f8e6ea0ec",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.884163,
+   "latitude": 52.371563,
+   "title": "Nederlands Instituut voor Mediakunst, Montevideo/Time Based Art",
+   "num_tags": null,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "7/12/2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1016 EV",
+      "adress": "Keizersgracht 264"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.montevideo.nl"
+   ],
+   "trcid": "b628d090-f2e1-4ca5-9976-6b46b2347445",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.899487,
+   "latitude": 52.375105,
+   "title": "Museum Ons' Lieve Heer op Solder",
+   "num_tags": 106,
+   "Instagram account": "museumopsolder",
+   "number posts": 29,
+   "number followers": 376,
+   "dates": [
+      {
+         "startdate": "7/12/2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Museum Ons' Lieve Heer op Solder",
+      "zipcode": "1012 GE",
+      "adress": "Oudezijds Voorburgwal 38"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.opsolder.nl"
+   ],
+   "trcid": "4e39ce81-1b8f-48d4-ac7c-3dc8062fe1a3",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.85433,
+   "latitude": 52.343013,
+   "title": "Olympic Experience",
+   "num_tags": 0,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "7/12/2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1076 DE",
+      "adress": "Olympisch Stadion 2"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.olympischstadion.nl"
+   ],
+   "trcid": "40445ab5-a18b-4c50-baa4-b04ac61e6f47",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.772477,
+   "latitude": 52.313026,
+   "title": "Rijksmuseum Amsterdam op Schiphol",
+   "num_tags": 15,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "7/12/2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "SCHIPHOL",
+      "name": "",
+      "zipcode": "1118 CA",
+      "adress": "Achter de paspoortcontrole tussen de E- en de F-Pier"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.rijksmuseum.nl"
+   ],
+   "trcid": "eccfc18f-1e8f-479f-9d62-6f345c1d7ab7",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.887754,
+   "latitude": 52.372153,
+   "title": "Stichting Nationaal Brilmuseum Amsterdam",
+   "num_tags": 16,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "15-12-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1016 AM",
+      "adress": "Gasthuismolensteeg 7"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.brilmuseumamsterdam.nl"
+   ],
+   "trcid": "fb1b647d-4354-4d12-9021-10bee921f2e2",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.882737,
+   "latitude": 52.375538,
+   "title": "Theo Thijssen Museum",
+   "num_tags": 127,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "16-12-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1015 TA",
+      "adress": "Eerste Leliedwarsstraat 16"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.theothijssenmuseum.nl"
+   ],
+   "trcid": "8870c113-5e1a-4bdb-8fdf-0e6abd58454e",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.882108,
+   "latitude": 52.365002,
+   "title": "Greenbox Museum",
+   "num_tags": 24,
+   "Instagram account": "greenbox_museum",
+   "number posts": 125,
+   "number followers": 1161,
+   "dates": [
+      {
+         "startdate": "24-02-2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1017 RC",
+      "adress": "Korte Leidsedwarsstraat 12"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.greenboxmuseum.com"
+   ],
+   "trcid": "ac42ecf9-b9ec-4b25-89ec-52e48790f3ca",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.924214,
+   "latitude": 52.359584,
+   "title": "Witsenkamer",
+   "num_tags": 8,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1092 AV",
+      "adress": "Oosterpark 82A"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.onsoosterpark.nl/ons-oosterpark/het-park/geschiedenis/het-witsenhuis/"
+   ],
+   "trcid": "444100a8-fb81-4666-b6bd-dc3bc01fa0e8",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.957898,
+   "latitude": 52.295008,
+   "title": "Museum Vrolik",
+   "num_tags": 354,
+   "Instagram account": "museumvrolik",
+   "number posts": 20,
+   "number followers": 2499,
+   "dates": [
+      {
+         "startdate": "15-12-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1105 AZ",
+      "adress": "Meibergdreef 9"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.museumvrolik.nl/"
+   ],
+   "trcid": "163610f3-3d64-42b3-9528-96404cd16058",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.867388,
+   "latitude": 52.363563,
+   "title": "New Art space Amsterdam",
+   "num_tags": 1,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "15-12-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "New Art space Amsterdam",
+      "zipcode": "1054 PD",
+      "adress": "Arie Biemondstraat 101"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.nasahq.net"
+   ],
+   "trcid": "ee20f723-b2eb-4d72-9485-10020cad4809",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.891803,
+   "latitude": 52.362614,
+   "title": "Stadsarchief Amsterdam - De Bazel",
+   "num_tags": 633,
+   "Instagram account": "stadsarchief",
+   "number posts": 317,
+   "number followers": 1960,
+   "dates": [
+      {
+         "startdate": "15-12-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1017 HL",
+      "adress": "Vijzelstraat 32"
+   },
+   "FIELD19": "",
+   "urls": [
+      "https://www.amsterdam.nl/stadsarchief/"
+   ],
+   "trcid": "bda67090-7df7-47bd-aae8-ac27935c43ef",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.879801,
+   "latitude": 52.356429,
+   "title": "Stedelijk Museum",
+   "num_tags": 61634,
+   "Instagram account": "stedelijkmuseum",
+   "number posts": 945,
+   "number followers": 108000,
+   "dates": [
+      {
+         "startdate": "15-12-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1071 DJ",
+      "adress": "Museumplein 10"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.stedelijk.nl/"
+   ],
+   "trcid": "4fb89255-8a30-4ca4-b043-8cb7b37ab471",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.881413,
+   "latitude": 52.372869,
+   "title": "Stedelijk Museum Bureau Amsterdam",
+   "num_tags": 35,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "15-12-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1016 NN",
+      "adress": "Rozenstraat 59"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.smba.nl"
+   ],
+   "trcid": "38c467a9-e4b6-4840-96e1-c7ae4bbffdcb",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.897279,
+   "latitude": 52.376588,
+   "title": "Sexmuseum Amsterdam Venustempel",
+   "num_tags": 4175,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "15-12-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1012 LH",
+      "adress": "Damrak 18"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.sexmuseumamsterdam.nl"
+   ],
+   "trcid": "8e5cb91b-a19a-464f-b3df-e221bad66009",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.912626,
+   "latitude": 52.374186,
+   "title": "Vereniging Museumhaven Amsterdam",
+   "num_tags": 0,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1011 VX",
+      "adress": "Oosterdok 12"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.museumhavenamsterdam.nl"
+   ],
+   "trcid": "5ddcd027-3c21-4b14-ad2b-a05cf19bea6f",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.815715,
+   "latitude": 52.471682,
+   "title": "Museumwinkel Albert Heijn",
+   "num_tags": 1,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "ZAANDAM",
+      "name": "Museumwinkel Albert Heijn",
+      "zipcode": "1509 BT",
+      "adress": "Kalverringdijk 5"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.zaanseschansmuseum.nl/nl/zs-2-3.php"
+   ],
+   "trcid": "946243ec-e37e-413d-a80e-99409d4ffb8a",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.813352,
+   "latitude": 52.473459,
+   "title": "Honig Breethuis",
+   "num_tags": 34,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "ZAANDIJK",
+      "name": "Honig Breethuis",
+      "zipcode": "1544 BJ",
+      "adress": "Lagedijk 80"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.honigbreethuis.nl"
+   ],
+   "trcid": "fb65088a-b254-45ec-9574-88245ae170c9",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.900699,
+   "latitude": 52.355274,
+   "title": "Amsterdam Tattoo Museum",
+   "num_tags": 854,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "14-07-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Amsterdam Tattoo Museum",
+      "zipcode": "1073 LP",
+      "adress": "Van Woustraat 78HS"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.amsterdamtattoomuseum.com"
+   ],
+   "trcid": "787d68da-e0ac-4a39-8ae5-09784458f728",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.946605,
+   "latitude": 52.509798,
+   "title": "Museum Waterland",
+   "num_tags": 26,
+   "Instagram account": "museumwaterland",
+   "number posts": 13,
+   "number followers": 41,
+   "dates": [
+      {
+         "startdate": "22-08-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "PURMEREND",
+      "name": "Museum Waterland",
+      "zipcode": "1441 BG",
+      "adress": "Kaasmarkt 16"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.museumwaterland.nl"
+   ],
+   "trcid": "c81195b9-f08b-4af9-8293-fb43156d0daf",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.893071,
+   "latitude": 52.3685,
+   "title": "Bijzondere Collecties",
+   "num_tags": 317,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "14-02-2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1012 GC",
+      "adress": "Oude Turfmarkt 129"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.bijzonderecollecties.uva.nl/"
+   ],
+   "trcid": "0a7ae1e8-f698-4526-afe6-7d6ea33b4b36",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.418986,
+   "latitude": 52.502306,
+   "title": "Nieuw Land Erfgoedcentrum",
+   "num_tags": 22,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "25-06-2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "LELYSTAD",
+      "name": "Nieuw Land Erfgoedcentrum",
+      "zipcode": "8242 PA",
+      "adress": "Oostvaardersdijk 113"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.nieuwlanderfgoed.nl/"
+   ],
+   "trcid": "7d7b2536-d25a-485b-8a46-dec7d4488ad8",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.884267,
+   "latitude": 52.376381,
+   "title": "Amsterdam Cheese Museum",
+   "num_tags": 578,
+   "Instagram account": "amsterdamcheesemuseum",
+   "number posts": 75,
+   "number followers": 350,
+   "dates": [
+      {
+         "startdate": "31-07-2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Amsterdam Cheese Museum",
+      "zipcode": "1015 EA",
+      "adress": "Prinsengracht 112"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.facebook.com/AmsterdamCheeseMuseum"
+   ],
+   "trcid": "ff2a5d4e-ac09-43f5-be40-bcba15ff3851",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.160596,
+   "latitude": 52.293362,
+   "title": "Het Nederlands Vestingmuseum",
+   "num_tags": 4,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "18-03-2013"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "NAARDEN",
+      "name": "Het Nederlands Vestingmuseum",
+      "zipcode": "1411 PB",
+      "adress": "Westwalstraat 6"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.vestingmuseum.nl/"
+   ],
+   "trcid": "e5262425-8ee1-4331-811a-ceb7f7465b44",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.913169,
+   "latitude": 52.37659,
+   "title": "Mediamatic",
+   "num_tags": 2943,
+   "Instagram account": "mediamatic_",
+   "number posts": 1196,
+   "number followers": 2999,
+   "dates": [
+      {
+         "startdate": "3/7/2013"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1019 BS",
+      "adress": "Dijksgracht 6"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.mediamatic.net"
+   ],
+   "trcid": "40783aa5-d739-40e6-9608-5c090d3b50f9",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.917803,
+   "latitude": 52.362946,
+   "title": "Rijksakademie van Beeldende Kunsten",
+   "num_tags": 2589,
+   "Instagram account": "rijksakademie",
+   "number posts": 454,
+   "number followers": 9679,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Rijksakademie van Beeldende Kunsten",
+      "zipcode": "1018 GW",
+      "adress": "Sarphatistraat 470"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.rijksakademie.nl"
+   ],
+   "trcid": "79c2a4bf-577b-4d41-a11b-f365f7fbdd28",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.88076,
+   "latitude": 52.358649,
+   "title": "Vincent op Vrijdag",
+   "num_tags": 14,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1071 CX",
+      "adress": "Paulus Potterstraat 7"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.vangoghmuseum.nl/"
+   ],
+   "trcid": "20edfdc2-a763-4275-ba57-9f154e046812",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.633838,
+   "latitude": 52.376897,
+   "title": "Frans Hals Museum",
+   "num_tags": 2284,
+   "Instagram account": "franshalsmuseum",
+   "number posts": 1597,
+   "number followers": 3028,
+   "dates": [
+      {
+         "startdate": "29-08-2013"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "HAARLEM",
+      "name": "Frans Hals Museum",
+      "zipcode": "2011 ES",
+      "adress": "Groot Heiligland 62"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.franshalsmuseum.nl"
+   ],
+   "trcid": "86268170-b538-412c-b007-ea56794dda8b",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.872262,
+   "latitude": 52.336925,
+   "title": "Amsterdam EXPO",
+   "num_tags": 1184,
+   "Instagram account": "amsterdamexponl",
+   "number posts": 28,
+   "number followers": 131,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1082 MC",
+      "adress": "Gustav Mahlerlaan  24"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.amsterdamexpo.nl"
+   ],
+   "trcid": "2953d68c-26f0-4d48-89aa-3654c48dc7ac",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.912274,
+   "latitude": 52.366807,
+   "title": "ARTIS-Micropia",
+   "num_tags": 50,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "21-10-2014"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1018 CZ",
+      "adress": "Artisplein, Plantage Kerklaan 36-38"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.micropia.nl"
+   ],
+   "trcid": "a18045a1-2dca-4119-b3fd-c1ec95ee9147",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.640407,
+   "latitude": 52.380226,
+   "title": "Teylers Museum",
+   "num_tags": 5323,
+   "Instagram account": "teylersmuseum",
+   "number posts": 1253,
+   "number followers": 4263,
+   "dates": [
+      {
+         "startdate": "22-10-2014"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "HAARLEM",
+      "name": "",
+      "zipcode": "2011 CH",
+      "adress": "Spaarne 16"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.teylersmuseum.nl"
+   ],
+   "trcid": "86623544-180c-4456-8a9e-193142766606",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.63517,
+   "latitude": 52.382239,
+   "title": "Corrie ten Boomhuis",
+   "num_tags": 100,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "HAARLEM",
+      "name": "",
+      "zipcode": "2011 RA",
+      "adress": "Barteljorisstraat 19"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.corrietenboom.com"
+   ],
+   "trcid": "87d34b98-18da-4242-8cd5-8a3d7e4828c5",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.636332,
+   "latitude": 52.381285,
+   "title": "De Hallen Haarlem",
+   "num_tags": 1565,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "23-10-2014"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "HAARLEM",
+      "name": "",
+      "zipcode": "2011 RD",
+      "adress": "Grote Markt 16"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.dehallenhaarlem.nl"
+   ],
+   "trcid": "09f47c0b-9553-4762-b8c2-775ba4178fcf",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.525204,
+   "latitude": 52.372886,
+   "title": "Jutters Mu-ZEE-um",
+   "num_tags": 4,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "7/11/2014"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "ZANDVOORT",
+      "name": "",
+      "zipcode": "2042 JA",
+      "adress": "Strandweg 2"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.juttersmuseum.nl"
+   ],
+   "trcid": "996df64e-d2a6-4516-9584-5e33feee2705",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.2939,
+   "latitude": 52.700862,
+   "title": "Flessenscheepjes Museum",
+   "num_tags": 26,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "ENKHUIZEN",
+      "name": "",
+      "zipcode": "1601 GH",
+      "adress": "Zuiderspui 1"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.flessenscheepjesmuseum.nl"
+   ],
+   "trcid": "1e436c12-e02c-4eb2-a954-e6490856d52a",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.554704,
+   "latitude": 52.259007,
+   "title": "Museum De Zwarte Tulp",
+   "num_tags": 180,
+   "Instagram account": "museumdezwartetulp",
+   "number posts": 198,
+   "number followers": 608,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "LISSE",
+      "name": "",
+      "zipcode": "2161 HN",
+      "adress": "Grachtweg 2a"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.museumdezwartetulp.nl/"
+   ],
+   "trcid": "bcec9335-b015-4041-80db-5a1e46ff77df",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.903915,
+   "latitude": 52.367349,
+   "title": "JHM Kindermuseum",
+   "num_tags": 9,
+   "Instagram account": "jhmkindermuseum",
+   "number posts": 1,
+   "number followers": 60,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1011 PL",
+      "adress": "Nieuwe Amstelstraat 1"
+   },
+   "FIELD19": "",
+   "urls": [
+      ""
+   ],
+   "trcid": "67f31032-f51a-4e78-8378-e01e248f9d5d",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.926015,
+   "latitude": 52.388189,
+   "title": "Museum Amsterdam Noord",
+   "num_tags": 22,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "22-01-2015"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1022 AD",
+      "adress": "Zamenhofstraat 28A"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.museumamsterdamnoord.nl"
+   ],
+   "trcid": "c259fab9-26dc-4bd7-952f-0f159ba2aa02",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.760834,
+   "latitude": 52.308913,
+   "title": "NEMO Science Museum op Schiphol",
+   "num_tags": 6225,
+   "Instagram account": "nemosciencemuseum",
+   "number posts": 786,
+   "number followers": 3754,
+   "dates": [
+      {
+         "startdate": "3/3/2015"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "SCHIPHOL",
+      "name": "NEMO Science Museum op Schiphol",
+      "zipcode": "1118 AX",
+      "adress": "Achter de paspoortcontole, pier D"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.nemosciencemuseum.nl"
+   ],
+   "trcid": "e957cdf6-efd3-4e22-aa3f-51db3b93c723",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.902542,
+   "latitude": 52.365312,
+   "title": "Hollanders van de Gouden Eeuw",
+   "num_tags": 47,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "21-04-2015"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Hermitage Amsterdam",
+      "zipcode": "1018 EJ",
+      "adress": "Amstel 51"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://portraitgalleryofthegoldenage.com/"
+   ],
+   "trcid": "77f6b43a-8e08-44b5-9462-10f8cc12f4e4",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.898936,
+   "latitude": 52.373679,
+   "title": "Red Light Secrets",
+   "num_tags": 2800,
+   "Instagram account": "redlightsecrets",
+   "number posts": 125,
+   "number followers": 814,
+   "dates": [
+      {
+         "startdate": "28-05-2015"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Red Light Secrets",
+      "zipcode": "1012 DP",
+      "adress": "Oudezijds Achterburgwal 60H"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.redlightsecrets.com/"
+   ],
+   "trcid": "926fa07b-8be5-498e-8c42-677b8e22c67b",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.172563,
+   "latitude": 52.235799,
+   "title": "Beeld en Geluid",
+   "num_tags": 375,
+   "Instagram account": "beeldengeluidd",
+   "number posts": 10,
+   "number followers": 0,
+   "dates": [
+      {
+         "startdate": "21-05-2015"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "HILVERSUM",
+      "name": "Beeld en Geluid",
+      "zipcode": "1217 WE",
+      "adress": "Media Parkboulevard 1"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.beeldengeluid.nl/"
+   ],
+   "trcid": "7f9a4d6c-c2ec-495f-9bb2-791983a14627",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.891297,
+   "latitude": 52.370415,
+   "title": "Schuttersgalerij",
+   "num_tags": 29,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Amsterdam Museum",
+      "zipcode": "1001 AC",
+      "adress": "Kalverstraat  92"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.amsterdammuseum.nl/"
+   ],
+   "trcid": "73f3bd47-50b1-49d2-979c-733f11aedb96",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.130384,
+   "latitude": 52.087051,
+   "title": "Het Spoorwegmuseum Utrecht",
+   "num_tags": 210,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "UTRECHT",
+      "name": "Het Spoorwegmuseum Utrecht",
+      "zipcode": "3581 XW",
+      "adress": "Hugo de Grootstraat 16"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.spoorwegmuseum.nl"
+   ],
+   "trcid": "a7b5f98d-d4f1-46e8-913f-902629d0bdae",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.912931,
+   "latitude": 52.367755,
+   "title": "Verzetsmuseum Junior",
+   "num_tags": 12,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Verzetsmuseum Amsterdam",
+      "zipcode": "1018 CX",
+      "adress": "Plantage Kerklaan 61"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.verzetsmuseum.org/museum/nl/verzetsmuseum-junior"
+   ],
+   "trcid": "42f20cd4-9932-45ba-ab6b-0a6bda539f22",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.902542,
+   "latitude": 52.365312,
+   "title": "Outsider Art Museum",
+   "num_tags": 332,
+   "Instagram account": "outsiderartmuseum",
+   "number posts": 114,
+   "number followers": 1048,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Outsider Art Museum",
+      "zipcode": "1018 EJ",
+      "adress": "Amstel 51"
+   },
+   "FIELD19": "",
+   "urls": [
+      "https://www.outsiderartmuseum.nl/nl/"
+   ],
+   "trcid": "22400825-5f93-4511-a689-7c76d3bfdca5",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.882542,
+   "latitude": 52.364665,
+   "title": "Green Box",
+   "num_tags": 24,
+   "Instagram account": "greenbox_museum",
+   "number posts": 125,
+   "number followers": 1161,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Green Box",
+      "zipcode": "1017 RC",
+      "adress": "Korte Leidsedwarsstraat 12"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.greenboxmuseum.com/"
+   ],
+   "trcid": "32df7c8b-1ac3-4cd0-b584-9ba60821b3a9",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.945985,
+   "latitude": 52.234224,
+   "title": "Paleis Het Loo",
+   "num_tags": 13944,
+   "Instagram account": "paleishetloo",
+   "number posts": 185,
+   "number followers": 4069,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "APELDOORN",
+      "name": "Paleis Het Loo",
+      "zipcode": "7315 JA",
+      "adress": "Koninklijk Park 1"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.paleishetloo.nl"
+   ],
+   "trcid": "8ed19db3-22a2-4710-ab4b-e386097f10cf",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.164324,
+   "latitude": 52.297266,
+   "title": "Comenius Museum",
+   "num_tags": 27,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "20-06-2016"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "NAARDEN",
+      "name": "Comenius Museum",
+      "zipcode": "1411 RS",
+      "adress": "Kloosterstraat 33"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.comeniusmuseum.nl/"
+   ],
+   "trcid": "64b99134-7e9b-49bd-b87e-9ec4a3d8b28b",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.888642,
+   "latitude": 52.370161,
+   "title": "The Tea Rat",
+   "num_tags": 0,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "The Tea Rat",
+      "zipcode": "1012 VZ",
+      "adress": "Raamsteeg 5"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://museum-tearat.blogspot.nl/p/blog-page_3697.html"
+   ],
+   "trcid": "3fa26659-86ef-4549-9466-60e0dd253818",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.807248,
+   "latitude": 52.680094,
+   "title": "Museum BroekerVeiling",
+   "num_tags": 196,
+   "Instagram account": "museum_broekerveiling",
+   "number posts": 142,
+   "number followers": 263,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "BROEK OP LANGEDIJK",
+      "name": "Museum BroekerVeiling",
+      "zipcode": "1721 BW",
+      "adress": "Museumweg 2-4"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.broekerveiling.nl"
+   ],
+   "trcid": "29e129fc-f7c3-4d68-8e47-a4dd21a88328",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.746678,
+   "latitude": 52.384952,
+   "title": "SugarCity Events",
+   "num_tags": 20,
+   "Instagram account": "sugarcity_events",
+   "number posts": 116,
+   "number followers": 453,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "SugarCity Events",
+      "zipcode": "1065 PD",
+      "adress": "Kristalpromenade 7"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.sugarcityevents.com/"
+   ],
+   "trcid": "5826ae76-9a68-47cf-b449-335f266fb893",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.882108,
+   "latitude": 52.356522,
+   "title": "Poëzie Museum",
+   "num_tags": 9,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "13-03-2017"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Poëzie Museum",
+      "zipcode": "1071 DJ",
+      "adress": "Museumplein 100"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.poeziemuseum.amsterdam/"
+   ],
+   "trcid": "198bf092-b6c1-4748-aa15-bcb93a8c83bc",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.912014,
+   "latitude": 52.374238,
+   "title": "NEMO Science Museum",
+   "num_tags": 6225,
+   "Instagram account": "nemosciencemuseum",
+   "number posts": 786,
+   "number followers": 3754,
+   "dates": [
+      {
+         "startdate": "15-12-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "NEMO Science Museum",
+      "zipcode": "1011 VX",
+      "adress": "Oosterdok 2"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.nemosciencemuseum.nl/"
+   ],
+   "trcid": "3329e497-a157-440c-840f-69307ae362a7",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.922654,
+   "latitude": 52.362777,
+   "title": "Tropenmuseum Junior",
+   "num_tags": 38,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "16-12-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1092 CK",
+      "adress": "Linnaeusstraat 2"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.tropenmuseum.nl"
+   ],
+   "trcid": "ef3cd85e-1911-4218-9382-bc11f534b575",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.882359,
+   "latitude": 52.369982,
+   "title": "Het Woonbootmuseum",
+   "num_tags": 0,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Het Woonbootmuseum",
+      "zipcode": "1016 HW",
+      "adress": "Prinsengracht 296K"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.houseboatmuseum.nl"
+   ],
+   "trcid": "29cbeea4-4617-4c27-b895-220cc68496c1",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.886289,
+   "latitude": 52.367887,
+   "title": "Het Grachtenhuis",
+   "num_tags": 371,
+   "Instagram account": "hetgrachtenhuis",
+   "number posts": 317,
+   "number followers": 346,
+   "dates": [
+      {
+         "startdate": "25-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1016 CJ",
+      "adress": "Herengracht 386"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.hetgrachtenhuis.com"
+   ],
+   "trcid": "a0102890-1e5e-4726-b26c-05b914368ae5",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.807787,
+   "latitude": 52.467994,
+   "title": "Molenmuseum",
+   "num_tags": 155,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "KOOG AAN DE ZAAN",
+      "name": "Molenmuseum",
+      "zipcode": "1541 LP",
+      "adress": "Museumlaan 18"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.zaansemolen.nl"
+   ],
+   "trcid": "22c552a0-d5fe-4083-87e7-7cf69be4b935",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.946421,
+   "latitude": 52.509742,
+   "title": "Purmerends Museum",
+   "num_tags": 14,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "PURMEREND",
+      "name": "Purmerends Museum",
+      "zipcode": "1441 BG",
+      "adress": "Kaasmarkt 20"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.purmerendsmuseum.nl"
+   ],
+   "trcid": "aa5732dd-c683-4c3a-a7be-915bc71db824",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.902542,
+   "latitude": 52.365312,
+   "title": "Hermitage Amsterdam",
+   "num_tags": 3246,
+   "Instagram account": "hermitage_amsterdam",
+   "number posts": 207,
+   "number followers": 7119,
+   "dates": [
+      {
+         "startdate": "24-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Hermitage Amsterdam",
+      "zipcode": "1018 EJ",
+      "adress": "Amstel 51"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.hermitage.nl/"
+   ],
+   "trcid": "4a57161c-9ebc-4175-98f4-37f79d7c1763",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.815877,
+   "latitude": 52.471682,
+   "title": "Museum Zaanse Tijd",
+   "num_tags": 4,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "ZAANDAM",
+      "name": "Museum Zaanse Tijd",
+      "zipcode": "1509 BT",
+      "adress": "Kalverringdijk 3"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://mnuurwerk.nl/museum-zaanse-tijd/"
+   ],
+   "trcid": "fa9244a3-0145-4b79-bc7d-fd79d39bdcc7",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.817829,
+   "latitude": 52.473274,
+   "title": "Bakkerij Museum 'In de Gecroonde Duyvekater'",
+   "num_tags": 1,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "ZAANDAM",
+      "name": "Bakkerij Museum Gecroonde Duyvekater",
+      "zipcode": "1509 BZ",
+      "adress": "Zeilenmakerspad 4"
+   },
+   "FIELD19": "",
+   "urls": [
+      ""
+   ],
+   "trcid": "4ca63430-9e3f-4908-bb0f-c7d5b94a59f3",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.074744,
+   "latitude": 52.493173,
+   "title": "Volendams Museum",
+   "num_tags": 27,
+   "Instagram account": "volendamsmuseum",
+   "number posts": 3,
+   "number followers": 56,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "VOLENDAM",
+      "name": "Volendams Museum",
+      "zipcode": "1131 ZD",
+      "adress": "Zeestraat 41"
+   },
+   "FIELD19": "",
+   "urls": [
+      ""
+   ],
+   "trcid": "21c18f9c-f2c6-461d-bae8-953d5f0339fb",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.437938,
+   "latitude": 52.523826,
+   "title": "Bataviawerf Lelystad",
+   "num_tags": 1001,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "LELYSTAD",
+      "name": "Bataviawerf Lelystad",
+      "zipcode": "8242 PA",
+      "adress": "Oostvaardersdijk 1-9"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.bataviawerf.nl"
+   ],
+   "trcid": "81299fb9-db2a-44ab-b5fa-eb9148c06308",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.1"
+      }
+   ]
+},
+ {
+   "longitude": 4.823555,
+   "latitude": 52.437351,
+   "title": "Czaar Peterhuisje",
+   "num_tags": 47,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "ZAANDAM",
+      "name": "Czaar Peterhuisje",
+      "zipcode": "1506 AA",
+      "adress": "Krimp 23"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.zaansmuseum.nl/"
+   ],
+   "trcid": "f32eac5f-90ad-4be8-b6a3-374ad46e91fe",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.820372,
+   "latitude": 52.473071,
+   "title": "Zaanse Schans",
+   "num_tags": 183295,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "ZAANDAM",
+      "name": "Zaanse Schans",
+      "zipcode": "1509 AW",
+      "adress": "Schansend 7"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.zaanseschans.nl/"
+   ],
+   "trcid": "2aa4270d-1b55-43ee-a71d-05bf0417df53",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.821726,
+   "latitude": 52.473499,
+   "title": "Zaans Museum en Verkade Paviljoen",
+   "num_tags": 1152,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "ZAANDAM",
+      "name": "Zaans Museum en Verkade Paviljoen",
+      "zipcode": "1509 AW",
+      "adress": "Schansend 7"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.verkadepaviljoen.nl/"
+   ],
+   "trcid": "013badb5-a4fc-4718-9d6d-5257151782b8",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.314162,
+   "latitude": 52.08341,
+   "title": "Escher in het Paleis",
+   "num_tags": 2095,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "'S-GRAVENHAGE",
+      "name": "Escher in het Paleis",
+      "zipcode": "2514 EH",
+      "adress": "Lange Voorhout 74"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://escherinhetpaleis.nl"
+   ],
+   "trcid": "d4dec34f-291f-41c5-bcb5-b38888e4806c",
+   "types": [
+      {
+         "type": "",
+         "catid": "1.1.1"
+      }
+   ]
+},
+ {
+   "longitude": 4.636773,
+   "latitude": 52.44801,
+   "title": "Pieter Vermeulen Museum",
+   "num_tags": 41,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "DRIEHUIS NH",
+      "name": "Pieter Vermeulen Museum",
+      "zipcode": "1985 EL",
+      "adress": "Driehuizerkerkweg 34d"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.pieter-vermeulen-museum.nl"
+   ],
+   "trcid": "7ce03e1c-0f75-4b9d-82c9-384fc6bc5a5d",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.527263,
+   "latitude": 52.456438,
+   "title": "Aviodrome",
+   "num_tags": 3660,
+   "Instagram account": "beleefaviodrome",
+   "number posts": 162,
+   "number followers": 710,
+   "dates": [
+      {
+         "startdate": "17-04-2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "LELYSTAD",
+      "name": "Aviodrome",
+      "zipcode": "8218 PG",
+      "adress": "Pelikaanweg 50"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.aviodrome.nl"
+   ],
+   "trcid": "bc9ae864-e6dd-4ac1-b0b2-790961b96ae5",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.1"
+      }
+   ]
+},
+ {
+   "longitude": 4.946354,
+   "latitude": 52.509967,
+   "title": "Het Purmerends Museum",
+   "num_tags": 14,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "20-11-2013"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "PURMEREND",
+      "name": "",
+      "zipcode": "1441 BG",
+      "adress": "Kaasmarkt 20"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.purmerendsmuseum.nl"
+   ],
+   "trcid": "691a3284-64e2-4fe8-9946-c545d14ba94e",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.019594,
+   "latitude": 52.583547,
+   "title": "Het schooltje van Dik Trom",
+   "num_tags": 8,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "12/9/2013"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "OOSTHUIZEN",
+      "name": "",
+      "zipcode": "1474 MT",
+      "adress": "Etersheim 8a"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.hetschooltjevandiktrom.nl"
+   ],
+   "trcid": "c366e0e4-7247-45b5-9e0f-2947ecb40887",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.065541,
+   "latitude": 52.490694,
+   "title": "Palingrokerij Smit Bokkum",
+   "num_tags": 73,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "30-01-2013"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "VOLENDAM",
+      "name": "Palingrokerij Smit Bokkum",
+      "zipcode": "1131 AA",
+      "adress": "Slobbeland 19"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.smitbokkum.nl/"
+   ],
+   "trcid": "af10b52b-83a8-4fc1-bbd7-a624d7a5c158",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.896862,
+   "latitude": 52.365181,
+   "title": "Tassenmuseum Hendrikje",
+   "num_tags": 3468,
+   "Instagram account": "tassenmuseumhendrikje",
+   "number posts": 415,
+   "number followers": 2514,
+   "dates": [
+      {
+         "startdate": "15-12-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1017 CD",
+      "adress": "Herengracht 573"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.tassenmuseum.nl"
+   ],
+   "trcid": "a0f6362d-f987-4af2-a060-f7ee2cb9790b",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.827096,
+   "latitude": 52.380042,
+   "title": "Van Eesteren Museum",
+   "num_tags": 130,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "16-12-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Van Eesteren Museum",
+      "zipcode": "1063 BJ",
+      "adress": "Burg de Vlugtlaan 125"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.vaneesterenmuseum.nl"
+   ],
+   "trcid": "9f600ad1-4bfb-4c41-ab06-37b8d5de526e",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.919781,
+   "latitude": 52.367879,
+   "title": "Museum 't Kromhout",
+   "num_tags": 55,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "7/12/2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Museum 't Kromhout",
+      "zipcode": "1018 BJ",
+      "adress": "Hoogte Kadijk 147"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.stadsherstel.nl"
+   ],
+   "trcid": "6c66bbe4-f649-4465-b98d-5af9ca01a7be",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.887813,
+   "latitude": 52.367374,
+   "title": "Klederdracht Museum Amsterdam",
+   "num_tags": 165,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "20-07-2016"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Klederdracht Museum Amsterdam",
+      "zipcode": "1017 BR",
+      "adress": "Herengracht 427"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://hetklederdrachtmuseum.nl/"
+   ],
+   "trcid": "9e8badd0-1c2f-42e9-9ada-09b36e41c9dd",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.884824,
+   "latitude": 52.367638,
+   "title": "Huis Marseille, Museum voor Fotografie",
+   "num_tags": 4511,
+   "Instagram account": "huismarseille",
+   "number posts": 278,
+   "number followers": 6510,
+   "dates": [
+      {
+         "startdate": "25-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1016 EK",
+      "adress": "Keizersgracht 401"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.huismarseille.nl/"
+   ],
+   "trcid": "3bcdfd73-44dd-43b0-be22-b2a308093006",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.28001,
+   "latitude": 52.089257,
+   "title": "Gemeentemuseum Den Haag",
+   "num_tags": 30024,
+   "Instagram account": "gemeentemuseum",
+   "number posts": 493,
+   "number followers": 19400,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "'S-GRAVENHAGE",
+      "name": "Gemeentemuseum Den Haag",
+      "zipcode": "2517 HV",
+      "adress": "Stadhouderslaan 41"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://gemeentemuseum.nl"
+   ],
+   "trcid": "3e49f570-4dd9-4fbd-89ae-83f862572725",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.881901,
+   "latitude": 52.358709,
+   "title": "Moco Museum",
+   "num_tags": 41735,
+   "Instagram account": "mocomuseum",
+   "number posts": 340,
+   "number followers": 33900,
+   "dates": [
+      {
+         "startdate": "6/4/2016"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Moco Museum",
+      "zipcode": "1071 DE",
+      "adress": "Honthorststraat 20"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.mocomuseum.com/"
+   ],
+   "trcid": "a900b5d7-cbe6-4013-a7da-fb32f8f4e92e",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.8381231,
+   "latitude": 52.3573751,
+   "title": "De Appel",
+   "num_tags": 1190,
+   "Instagram account": "de_appel",
+   "number posts": 428,
+   "number followers": 8362,
+   "dates": [
+      {
+         "startdate": "23-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "De Appel",
+      "zipcode": "1062 HE",
+      "adress": "Schipluidenlaan 12D4"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.deappel.nl"
+   ],
+   "trcid": "a01d8d50-e20c-4b56-a7d4-e88248b3640a",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.553636,
+   "latitude": 52.258881,
+   "title": "Museum De Zwarte Tulp",
+   "num_tags": 180,
+   "Instagram account": "museumdezwartetulp",
+   "number posts": 198,
+   "number followers": 608,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "LISSE",
+      "name": "Museum De Zwarte Tulp",
+      "zipcode": "2161 BG",
+      "adress": "Heereweg 219"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.museumdezwartetulp.nl/"
+   ],
+   "trcid": "fe7b7dba-c768-4713-8802-043f580d5dec",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.886355,
+   "latitude": 52.368534,
+   "title": "Cromhouthuis",
+   "num_tags": 714,
+   "Instagram account": "cromhouthuis",
+   "number posts": 99,
+   "number followers": 359,
+   "dates": [
+      {
+         "startdate": "11/1/2016"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Cromhouthuis",
+      "zipcode": "1016 CH",
+      "adress": "Herengracht 366-368"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.cromhouthuis.nl"
+   ],
+   "trcid": "1272b667-b6f7-4470-8a63-0627fd6f174c",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.912931,
+   "latitude": 52.367755,
+   "title": "Verzetsmuseum Amsterdam",
+   "num_tags": 814,
+   "Instagram account": "verzetsmuseumamsterdam",
+   "number posts": 174,
+   "number followers": 839,
+   "dates": [
+      {
+         "startdate": "15-12-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1018 CX",
+      "adress": "Plantage Kerklaan 61"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.verzetsmuseum.org"
+   ],
+   "trcid": "2cefd885-58aa-410b-87a4-d7e1f1df08c2",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.939839,
+   "latitude": 52.369198,
+   "title": "Nederlands Persmuseum",
+   "num_tags": 62,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "7/12/2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1019 HA",
+      "adress": "Zeeburgerkade 10"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.persmuseum.nl"
+   ],
+   "trcid": "70d130e3-9b9c-472b-88a7-addcde21f22b",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.160401,
+   "latitude": 52.293425,
+   "title": "Het Nederlands Vestingmuseum Naarden",
+   "num_tags": 168,
+   "Instagram account": "nederlands_vestingmuseum",
+   "number posts": 95,
+   "number followers": 253,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "NAARDEN",
+      "name": "Het Nederlands Vestingmuseum Naarden",
+      "zipcode": "1411 PB",
+      "adress": "Westwalstraat 6"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.vestingmuseum.nl"
+   ],
+   "trcid": "e52d8b15-f283-4285-9906-26f73b6fccf5",
+   "types": [
+      {
+         "type": "",
+         "catid": "1.1.1"
+      }
+   ]
+},
+ {
+   "longitude": 4.89008,
+   "latitude": 52.373127,
+   "title": "De Nieuwe Kerk Amsterdam",
+   "num_tags": 1795,
+   "Instagram account": "denieuwekerk",
+   "number posts": 72,
+   "number followers": 1019,
+   "dates": [
+      {
+         "startdate": ""
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "De Nieuwe Kerk Amsterdam",
+      "zipcode": "1012 JS",
+      "adress": "Dam"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.nieuwekerk.nl"
+   ],
+   "trcid": "9579b782-bb71-4027-b1e7-5d15e6035c77",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.598628,
+   "latitude": 52.457412,
+   "title": "Zee-en Havenmuseum",
+   "num_tags": 35,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "IJMUIDEN",
+      "name": "Zee-en Havenmuseum",
+      "zipcode": "1973 AK",
+      "adress": "Havenkade 55"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.zeehavenmuseum.nl"
+   ],
+   "trcid": "8641ca9b-4e5e-4a54-8d35-b8abb22d9414",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.886047,
+   "latitude": 52.363658,
+   "title": "Amsterdam Pipe Museum",
+   "num_tags": 15,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "7/12/2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Amsterdam Pipe Museum",
+      "zipcode": "1017 KH",
+      "adress": "Prinsengracht 488"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.pipemuseum.nl"
+   ],
+   "trcid": "9097ed76-6af3-489c-a745-03343c3102b9",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.938456,
+   "latitude": 52.346238,
+   "title": "Nederlands Uitvaart Museum Tot Zover",
+   "num_tags": 29,
+   "Instagram account": "museumtotzover",
+   "number posts": 18,
+   "number followers": 175,
+   "dates": [
+      {
+         "startdate": "7/12/2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1097 GA",
+      "adress": "Kruislaan 124"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.totzover.nl"
+   ],
+   "trcid": "7f736099-819c-4c08-9470-fd2de4112f55",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.221621,
+   "latitude": 52.259387,
+   "title": "Singer Laren",
+   "num_tags": 2012,
+   "Instagram account": "singerlaren",
+   "number posts": 252,
+   "number followers": 1268,
+   "dates": [
+      {
+         "startdate": "25-11-2015"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "LAREN NH",
+      "name": "Singer Laren",
+      "zipcode": "1251 BS",
+      "adress": "Oude Drift 1"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.singerlaren.nl/home"
+   ],
+   "trcid": "223a50e0-f5fc-413d-8afa-52397a40a4de",
+   "types": [
+      {
+         "type": "",
+         "catid": "1.1.1"
+      }
+   ]
+},
+ {
+   "longitude": 4.858702,
+   "latitude": 52.303684,
+   "title": "Cobra Museum voor Moderne Kunst",
+   "num_tags": 2094,
+   "Instagram account": "cobramuseum",
+   "number posts": 284,
+   "number followers": 1661,
+   "dates": [
+      {
+         "startdate": "23-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTELVEEN",
+      "name": "",
+      "zipcode": "1181 ZX",
+      "adress": "Sandbergplein 1"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.cobra-museum.nl/nl/actueel.html"
+   ],
+   "trcid": "95662943-4465-44d0-a0df-dab591d338e5",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.164418,
+   "latitude": 52.297305,
+   "title": "Comenius Museum",
+   "num_tags": 27,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "17-11-2015"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "NAARDEN",
+      "name": "Comenius Museum",
+      "zipcode": "1411 RS",
+      "adress": "Kloosterstraat 33"
+   },
+   "FIELD19": "",
+   "urls": [
+      ""
+   ],
+   "trcid": "f1457b01-1ffb-4074-afbe-941ee2289229",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 5.296976,
+   "latitude": 52.70306,
+   "title": "Het Zuiderzeemuseum",
+   "num_tags": 1,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "17-02-2011"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "ENKHUIZEN",
+      "name": "Het Zuiderzeemuseum",
+      "zipcode": "1601 LA",
+      "adress": "Wierdijk 12-22"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.zuiderzeemuseum.nl"
+   ],
+   "trcid": "fe0a820c-5258-49af-8bbd-449ee4d4c241",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.946354,
+   "latitude": 52.509967,
+   "title": "VVV Informatiepunt Purmerend",
+   "num_tags": 0,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "12/12/2012"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "PURMEREND",
+      "name": "VVV Informatiepunt Purmerend",
+      "zipcode": "1441 BG",
+      "adress": "Kaasmarkt 20"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.vvvpurmerend.nl"
+   ],
+   "trcid": "21c562d5-0bdd-43cf-a524-68eca7d0a1fb",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.91093,
+   "latitude": 52.366902,
+   "title": "Nationaal Holocaust Museum",
+   "num_tags": 140,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "24-05-2016"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Nationaal Holocaust Museum",
+      "zipcode": "1018 DB",
+      "adress": "Plantage Middenlaan 27"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.jck.nl/nl/locatie/nationaal-holocaust-museum"
+   ],
+   "trcid": "b91a4bc1-03ae-4b66-955e-0d26a2835d77",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.879801,
+   "latitude": 52.356429,
+   "title": "Van Gogh Museum",
+   "num_tags": 102536,
+   "Instagram account": "vangoghmuseum",
+   "number posts": 1256,
+   "number followers": 740000,
+   "dates": [
+      {
+         "startdate": "26-10-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Van Gogh Museum",
+      "zipcode": "1071 DJ",
+      "adress": "Museumplein 6"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.vangoghmuseum.nl/"
+   ],
+   "trcid": "cbf77bab-b6c9-4443-b62b-4ec7c01a7f52",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.884142,
+   "latitude": 52.375132,
+   "title": "Anne Frank Huis",
+   "num_tags": 54878,
+   "Instagram account": "annefrankhouse_official",
+   "number posts": 158,
+   "number followers": 25600,
+   "dates": [
+      {
+         "startdate": "28-10-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Anne Frank Huis",
+      "zipcode": "1016 GV",
+      "adress": "Prinsengracht 267"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.annefrank.org"
+   ],
+   "trcid": "dd19da01-45a7-470a-b0df-a2feef783f77",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.900978,
+   "latitude": 52.384399,
+   "title": "EYE Filmmuseum",
+   "num_tags": 6628,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "24-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "EYE Filmmuseum",
+      "zipcode": "1031 KT",
+      "adress": "IJpromenade 1"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.eyefilm.nl"
+   ],
+   "trcid": "2ba2fa84-b735-4f8c-91c5-a2c7ded1b57d",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.922654,
+   "latitude": 52.362777,
+   "title": "Tropenmuseum",
+   "num_tags": 13150,
+   "Instagram account": "tropenmuseum",
+   "number posts": 340,
+   "number followers": 5497,
+   "dates": [
+      {
+         "startdate": "16-12-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1092 CK",
+      "adress": "Linnaeusstraat 2"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.tropenmuseum.nl"
+   ],
+   "trcid": "0505f9b2-6ead-46c8-bb9b-178ffe219c79",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.916425,
+   "latitude": 52.37077,
+   "title": "Het Scheepvaartmuseum Amsterdam",
+   "num_tags": 2688,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "7/12/2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Het Scheepvaartmuseum Amsterdam",
+      "zipcode": "1018 KK",
+      "adress": "Kattenburgerplein 1"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.hetscheepvaartmuseum.nl/"
+   ],
+   "trcid": "71aa0732-99a1-4c27-abaa-62d81a43a8b1",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.885185,
+   "latitude": 52.360007,
+   "title": "Rijksmuseum",
+   "num_tags": 296347,
+   "Instagram account": "rijksmuseum",
+   "number posts": 897,
+   "number followers": 212000,
+   "dates": [
+      {
+         "startdate": "7/12/2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Rijksmuseum",
+      "zipcode": "1071 XX",
+      "adress": "Museumstraat 1"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.rijksmuseum.nl/"
+   ],
+   "trcid": "d17e70df-1851-41dd-a27f-99bae778e577",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.901191,
+   "latitude": 52.369358,
+   "title": "Museum Het Rembrandthuis",
+   "num_tags": 235,
+   "Instagram account": "museumrembrandthuis",
+   "number posts": 819,
+   "number followers": 15300,
+   "dates": [
+      {
+         "startdate": "7/12/2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Museum Het Rembrandthuis",
+      "zipcode": "1011 NK",
+      "adress": "Jodenbreestraat  4"
+   },
+   "FIELD19": "",
+   "urls": [
+      "https://www.rembrandthuis.nl/nl/"
+   ],
+   "trcid": "e3f3d6d7-eaf9-4d39-af37-b97ba8a21243",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.88357,
+   "latitude": 52.37865,
+   "title": "Geelvinck Pianola Museum",
+   "num_tags": 24,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "5/8/2017"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Geelvinck Pianola Museum",
+      "zipcode": "1015 MN",
+      "adress": "Westerstraat 106"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.pianola.nl"
+   ],
+   "trcid": "d52080e9-5df0-4fd0-aafd-bce2ffff386c",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.883645,
+   "latitude": 52.378509,
+   "title": "Pianola Museum",
+   "num_tags": 147,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "7/12/2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "",
+            "Value": null,
+            "Catid": null,
+            "CategoryArea": ""
+         },
+         "42.3": {
+            "Category": "",
+            "Catid": null,
+            "CategoryArea": ""
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "",
+      "zipcode": "1015 MN",
+      "adress": "Westerstraat 106"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.pianola.nl"
+   ],
+   "trcid": "67f6163d-a747-46a7-a39a-81528f5b8b04",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.88248,
+   "latitude": 52.359431,
+   "title": "Diamant Museum Amsterdam",
+   "num_tags": 576,
+   "Instagram account": "",
+   "number posts": null,
+   "number followers": null,
+   "dates": [
+      {
+         "startdate": "24-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Diamant Museum Amsterdam",
+      "zipcode": "1071 CZ",
+      "adress": "Paulus Potterstraat 8"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.diamantmuseumamsterdam.nl"
+   ],
+   "trcid": "5c7f06df-0d3c-4680-926e-91a6df629e94",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+},
+ {
+   "longitude": 4.873812,
+   "latitude": 52.390401,
+   "title": "Museum Het Schip - De Amsterdamse School",
+   "num_tags": 473,
+   "Instagram account": "museumhetschip",
+   "number posts": 85,
+   "number followers": 872,
+   "dates": [
+      {
+         "startdate": "30-11-2010"
+      }
+   ],
+   "eigenschappen": [
+      {
+         "3.6": {
+            "Category": "Lid VVV",
+            "Value": true,
+            "Catid": 3.6,
+            "CategoryArea": "Lidmaatschappen"
+         },
+         "42.3": {
+            "Category": "Telefoon",
+            "Catid": 42.3,
+            "CategoryArea": "Contactinfo zakelijk"
+         }
+      }
+   ],
+   "location": {
+      "city": "AMSTERDAM",
+      "name": "Museum Het Schip - De Amsterdamse School",
+      "zipcode": "1013 WG",
+      "adress": "Oostzaanstraat 45"
+   },
+   "FIELD19": "",
+   "urls": [
+      "http://www.hetschip.nl"
+   ],
+   "trcid": "7d869de4-71fc-4ce6-9534-a5988cc90041",
+   "types": [
+      {
+         "type": "",
+         "catid": "2.1.6"
+      }
+   ]
+}
+]

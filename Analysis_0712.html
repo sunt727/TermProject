@@ -13,13 +13,17 @@
 	<!-- Load jQuery-->
 	<script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js?ver=1.10.2'></script>
 	<script type='text/javascript' src='./js/mapStyle.js'></script>
+	<script type='text/javascript' src='./js/Colour.js'></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- Click month buttons to load external datasets-->
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
 	<script src="https://googlemaps.github.io/js-marker-clusterer/examples/data.json"></script>
     <script type="text/javascript" src="https://googlemaps.github.io/js-marker-clusterer/src/markerclusterer.js"></script>
-	<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL6b1khQemm0nWw8CujtPXctuqdK_QJEI&callback=initMap_cluster"
-	type="text/javascript"></script> -->
+	<!--&lt;!&ndash; <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL6b1khQemm0nWw8CujtPXctuqdK_QJEI&callback=initMap_cluster"-->
+	<!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTZODVEpQZU3wFr2smxRwN2ewAb8uk_QJEI&callback=initMap_cluster"-->
+	<!--type="text/javascript"></script>-->
+
+	<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTZODVEpQZU-3wFr_2smxRw-N2ewAb8uk&callback=initMap" async defer></script>-->
 
 	<!-- Load data -->
 	<!-- These are trips that  -->
@@ -35,6 +39,7 @@
 	<script src="jsonData/diffoct.json"></script>
 	<script src="jsonData/diffnov.json"></script>
 	<script src="jsonData/diffdec.json"></script>
+	<script src="jsonData/MuseumGalleries_2.json"></script>
 	<script src="jsonData/docks.json"></script>
 
 
@@ -140,7 +145,7 @@ function initialize() {
 	var styledMap = new google.maps.StyledMapType(blackMap,
 	 {name: "Styled Map"});
 	var mapOptions = {
-		center: { lat: 42.364498, lng: -71.070883},
+		center: { lat: 52.379189, lng:  4.899431},
 		zoom: 14,
 		maxZoom:18,
 		mapTypeControlOptions: {
@@ -156,18 +161,20 @@ function initialize() {
 	var bounds = map.getBounds();
 
 	});
-	var Time = value[0].innerHTML;
-	var subset= diffjan.filter( record => record.hour == Time );
-	initMap_nocluster(subset, diffjan);
-	var byDiff = diffjan.filter( record => record.hour == Time ).slice(0);
-	byDiff.sort(function(a,b){
-		var x = a.Diff;
-		var y = b.Diff;
-		return x < y ? -1 : x > y ? 1: 0;
-	});
-	var reverseDiff = byDiff.slice().reverse();
-	initTable(byDiff);
-	initTable2(reverseDiff);
+	// var Time = value[0].innerHTML;
+	// var subset= MuseumGalleries.filter( );
+	// console.log(MuseumGalleries);
+
+	initMap_nocluster(MuseumGalleries, MuseumGalleries);
+	// var byDiff = diffjan.filter( record => record.hour == Time ).slice(0);
+	// byDiff.sort(function(a,b){
+	// 	var x = a.Diff;
+	// 	var y = b.Diff;
+	// 	return x < y ? -1 : x > y ? 1: 0;
+	// });
+	// var reverseDiff = byDiff.slice().reverse();
+	// initTable(byDiff);
+	// initTable2(reverseDiff);
 }
 
 
@@ -452,16 +459,18 @@ $('#buttondec').click(function DrawRoutesAndChart(){
 
 // ------------------------- Function: Draw map that has no clusters ------------------------- //
 function initMap_nocluster(tripdata, originaldata) {
+    console.log(tripdata);
 
 	DrawDiffs(tripdata);
 
 	function DrawDiffs(Diffdata){
-		var positiveDiff= tripdata.filter( record => record.Diff >= 0 );
-		var negativeDiff= tripdata.filter( record => record.Diff < 0 );
+		var positiveDiff= originaldata;
+		// var negativeDiff= tripdata.filter( record => record.Diff < 0 );
+		// var museum = tripdata;
 
 		var styledMap = new google.maps.StyledMapType(blackMap, {name: "Styled Map"});
 		var mapOptions = {
-			center: { lat: 42.364498, lng: -71.070883},
+			center: {lat: 52.379189, lng:  4.899431},
 			zoom: 13.5,
 			maxZoom:18,
 			mapTypeControlOptions: {
@@ -480,8 +489,10 @@ function initMap_nocluster(tripdata, originaldata) {
 
 		// posi
 		for (var i = 0; i < positiveDiff.length; i++){
-			var coord = new google.maps.LatLng(positiveDiff[i].lat, positiveDiff[i].lon);
-			var size = positiveDiff[i].Diff/3;
+			var coord = new google.maps.LatLng(parseFloat(positiveDiff[i].latitude), parseFloat(positiveDiff[i].longitude));
+			// var coord = {lat: parseFloat(positiveDiff[i].latitude), lng: parseFloat(positiveDiff[i].longitude)};
+			console.log(coord);
+			var size = Math.pow(positiveDiff[i].num_tags,0.3)*3;
 			var image = {
 				url: './img/posidiff.png', // image is 512 x 512
 				anchor: new google.maps.Point(Math.abs(size)/2,Math.abs(size)/2),
@@ -491,17 +502,28 @@ function initMap_nocluster(tripdata, originaldata) {
 			var marker = new google.maps.Marker({
 				position: coord,
 				clickable: true,
-				icon: image,
+				icon: {
+                    path: google.maps.SymbolPath.CIRCLE,
+                    // fillColor: '#FFF',
+                    // fillColor: '#FF0000',
+                    fillColor: 'hsl(48,100%,'+(100-3*Math.pow(positiveDiff[i].num_tags,0.2))+'%)',
+                    fillOpacity: 1,
+                    strokeColor: '#000',
+                    strokeWeight: 0,
+                    scale:  Math.pow(positiveDiff[i].num_tags,0.3),
+
+                },
 				alpha: 0.3,
+                saturation: -50,
 				map: map,
-				title: positiveDiff[i].station
+				title: positiveDiff[i].title
 			});
 			console.log(marker);
 
 			google.maps.event.addListener(marker, 'mouseover', (function (marker, i) {
 				return function () {
 					var diff = Math.ceil(Math.abs(positiveDiff[i].Diff/30));
-					infowindow.setContent(positiveDiff[i].station + '<br>' + diff + ' more Outbound than Inbound');
+					infowindow.setContent(positiveDiff[i].title + '<br>' + positiveDiff[i].num_tags + " Insta Tags");
 					infowindow.open(map, marker);
 				}
 			})(marker, i));
@@ -510,10 +532,7 @@ function initMap_nocluster(tripdata, originaldata) {
 				return function() {
 					var name = marker.getTitle();
 					//console.log(name);
-					var subset = originaldata.filter(data=>data.station == name);
-					var diff = Math.ceil(Math.abs(subset.filter(data=>data.hour == value[0].innerHTML)[0].Diff/30));
-					//console.log(diff);
-					infowindow_cluster.setContent(this.getTitle() + " stations<br>" + diff + " more Inbound than Outbound");
+					infowindow_cluster.setContent(this.getTitle());
 					infowindow_cluster.open(map, this);
 					//console.log(subset);
 					initChart(subset, name);
@@ -528,52 +547,52 @@ function initMap_nocluster(tripdata, originaldata) {
 			});
 		}
 
-		// nega
-		for (var i = 0; i < negativeDiff.length; i++){
-			var coord = new google.maps.LatLng(negativeDiff[i].lat, negativeDiff[i].lon);
-			var size = negativeDiff[i].Diff/3;
-			var image = {
-				url: './img/negadiff.png', // image is 512 x 512
-				anchor: new google.maps.Point(Math.abs(size)/2,Math.abs(size)/2),
-				scaledSize : new google.maps.Size(Math.abs(size),Math.abs(size)),
-			};
-
-			var marker = new google.maps.Marker({
-				position: coord,
-				clickable: true,
-				icon: image,
-				alpha: 0.3,
-				map: map,
-				title: negativeDiff[i].station
-			});
-
-			google.maps.event.addListener(marker, 'mouseover', (function (marker, i) {
-				return function () {
-					var diff = Math.ceil(Math.abs(negativeDiff[i].Diff/30));
-					infowindow.setContent(negativeDiff[i].station + '<br>' + diff + ' more Inbound than Outbound');
-					infowindow.open(map, marker);
-				}
-			})(marker, i));
-
-			google.maps.event.addListener(marker, 'click', (function(marker) {
-				return function() {
-					var name = marker.getTitle();
-					//console.log(name);
-					var subset = originaldata.filter(data=>data.station == name);
-					var diff = Math.ceil(Math.abs(subset.filter(data=>data.hour == value[0].innerHTML)[0].Diff/30));
-					infowindow_cluster.setContent(this.getTitle() + " stations<br>" + diff + " more Outbound than Inbound");
-					infowindow_cluster.open(map, this);
-						//console.log(subset);
-						initChart(subset, name);
-					}
-					})(marker,i));
-
-			markerArray.push(marker);
-
-			google.maps.event.addListener(marker, 'mouseout', function(){
-				infowindow.close();
-			});
-		}
+		// // nega
+		// for (var i = 0; i < negativeDiff.length; i++){
+		// 	var coord = new google.maps.LatLng(negativeDiff[i].lat, negativeDiff[i].lon);
+		// 	var size = negativeDiff[i].Diff/3;
+		// 	var image = {
+		// 		url: './img/negadiff.png', // image is 512 x 512
+		// 		anchor: new google.maps.Point(Math.abs(size)/2,Math.abs(size)/2),
+		// 		scaledSize : new google.maps.Size(Math.abs(size),Math.abs(size)),
+		// 	};
+        //
+		// 	var marker = new google.maps.Marker({
+		// 		position: coord,
+		// 		clickable: true,
+		// 		icon: image,
+		// 		alpha: 0.3,
+		// 		map: map,
+		// 		title: negativeDiff[i].station
+		// 	});
+        //
+		// 	google.maps.event.addListener(marker, 'mouseover', (function (marker, i) {
+		// 		return function () {
+		// 			var diff = Math.ceil(Math.abs(negativeDiff[i].Diff/30));
+		// 			infowindow.setContent(negativeDiff[i].station + '<br>' + diff + ' more Inbound than Outbound');
+		// 			infowindow.open(map, marker);
+		// 		}
+		// 	})(marker, i));
+        //
+		// 	google.maps.event.addListener(marker, 'click', (function(marker) {
+		// 		return function() {
+		// 			var name = marker.getTitle();
+		// 			//console.log(name);
+		// 			var subset = originaldata.filter(data=>data.station == name);
+		// 			var diff = Math.ceil(Math.abs(subset.filter(data=>data.hour == value[0].innerHTML)[0].Diff/30));
+		// 			infowindow_cluster.setContent(this.getTitle() + " stations<br>" + diff + " more Outbound than Inbound");
+		// 			infowindow_cluster.open(map, this);
+		// 				//console.log(subset);
+		// 				initChart(subset, name);
+		// 			}
+		// 			})(marker,i));
+        //
+		// 	markerArray.push(marker);
+        //
+		// 	google.maps.event.addListener(marker, 'mouseout', function(){
+		// 		infowindow.close();
+		// 	});
+		// }
 
 	}
 
